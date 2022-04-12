@@ -1,0 +1,67 @@
+body{
+    background-color:bisque;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    height: 50px;
+    padding: 50px;
+    border: hidden 2px;
+    border-radius: 15px;
+}
+
+a{
+    color:beige;
+}
+
+img{
+    height: 100px;
+    border: hidden 2px;
+    border-radius: 15px;
+}
+
+.titulo{
+    background-color: antiquewhite;
+    color:coral;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    border: solid 2px;
+    border-radius: 15px;
+    border-color: chocolate;
+}
+
+.contenedor{
+    background-color: #fbefd7;
+    padding:30px;
+    display: flex;
+    border: solid 2px;
+    border-radius: 15px;
+    border-color: chocolate;
+}
+
+.caja, .propuesta{
+    background-color: #269c26;
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+    display: inline;
+    text-align: center;
+    border: solid 2px;
+    border-radius: 15px;
+}
+
+.propuesta{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    border: hidden 2px;
+    border-radius: 15px;
+}
+
+.propuesta:hover{
+    height: 250px;
+    width: 250px;
+}
