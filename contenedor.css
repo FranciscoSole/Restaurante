@@ -15,11 +15,6 @@ body {
     color: #fff;
 }
 
-.fondo{
-    width: auto;
-    height: auto;
-}
-
 footer{
     align-items: flex-end;
     background-color: black;
@@ -38,14 +33,14 @@ footer{
 
 .titulo{
     top: 51%;
-    left: 37.5%;
+    left: 37.35%;
     font-size: 250%;
-    color: whitesmoke;
+    color: white;
 }
 
 .titulo2{
     top: 51.1%;
-    left: 37.69%;
+    left: 37.5%;
     color:black
 }
 
@@ -53,17 +48,17 @@ footer{
     top: 60%;
     left: 29%;
     font-size: 180%;
-    color: whitesmoke;
+    color: white;
 }
 
 .subtitulo2{
     top: 60.1%;
-    left: 29.185%;
+    left: 29.15%;
     font-size: 180%;
     color:black;
 }
 
-/* ----------------------------------------------------------------------------- Nuestras pizzas ------------------------------------------------------------------------------ */
+/* ----------------------------------------------------------------------------- Menu ------------------------------------------------------------------------------ */
 /* Titulo */
 .section-title{
     position: absolute;
@@ -156,7 +151,7 @@ footer{
     left: -25.8%;
 }
 
-p em, .section-title-pq, .section-title-fg{
+.p em, .section-title-pq, .section-title-fg{
     font-family: "Playfair Display", serif;
     font-weight: 700;
     font-size: 2.3em;
@@ -170,7 +165,6 @@ p em, .section-title-pq, .section-title-fg{
     font-weight: 400;
     font-size: 1.2em;
     color: white;
-
 }
 
 .texto1{
@@ -179,6 +173,6 @@ p em, .section-title-pq, .section-title-fg{
 }
 
 .texto2{
-    top: 156%;
+    top: 155.3%;
     left: 4.4%;
 }
