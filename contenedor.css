@@ -6,11 +6,10 @@
     padding: 0px;
     list-style: none;
     text-decoration: none;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat";
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
     background: #1a1814;
     color: #fff;
 }
@@ -23,6 +22,11 @@ footer{
     padding: 50px;
     height: 50px;
     bottom: 0;
+}
+
+.fondo, .carousel-inner > .carousel-item > img{
+    height: 100vh;
+    width: 194.34vh;
 }
 
 /* --------------------------------------------------------------------------------- Inicio ----------------------------------------------------------------------------------- */
@@ -57,23 +61,21 @@ footer{
     font-size: 180%;
     color:black;
 }
-
 /* ----------------------------------------------------------------------------- Menu ------------------------------------------------------------------------------ */
 /* Titulo */
 .section-title{
     position: absolute;
     top: 8%;
-    left: 30%;
-    padding-bottom: 30px;
+    left: 30.7%;
     margin-top: 5%;
 }
 
-.p em, .section-title{
-    font-family: "Playfair Display", serif;
+.section-title > p{
     font-weight: 700;
     font-size: 2.3em;
     color: #cda45e;
-    margin-left: 30%;
+    margin-left: 114.8%;
+    width: 500px;
 }
 
 /* General */
@@ -85,12 +87,13 @@ footer{
     transition: 0.3s;
     font-weight: 700;
     color: white;
+    justify-content: flex-start;
 }
 
 .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{
     position: absolute;
     left: 47.3%;
-    font-family: "Poppins", sans-serif;
+    font-family: "Arial";
     font-style: italic;
     font-size: 14px;
     color: #ffffff86;
@@ -98,11 +101,16 @@ footer{
     padding-left: 10px;
 }
 
-.muzarella-nombre span, .pys-nombre span, .verd-nombre span, .fgzt-nombre span {
-    padding: 0 10px;
+.muzarella-nombre > span, .pys-nombre > span, .verd-nombre > span, .fgzt-nombre > span{
     font-weight: 600;
     color: #cda45e;
 }
+
+.muzarella-nombre > span{margin-left: 315px;}
+.pys-nombre > span{margin-left: 226px;}
+.verd-nombre > span{margin-left: 309px;}
+.fgzt-nombre > span{margin-left: 248px;}
+
 
 .muzarella-nombre a, .pys-nombre a, .verd-nombre a, .fgzt-nombre a {
     padding-right: 10px;
@@ -111,6 +119,7 @@ footer{
     font-weight: 700;
     color: white;
     transition: 0.3s;
+    float: left;
 }
 
 .muzarella-nombre a:hover, .pys-nombre a:hover, .verd-nombre a:hover, .fgzt-nombre a:hover {color: #cda45e;}
@@ -120,47 +129,48 @@ footer{
 .muzarella-ingredientes {top: 30%;}
 
 /* Pollo y salsa blanca */
-.pys-nombre{top: 33%;}
-.pys-ingredientes{top: 36%;}
+.pys-nombre{top: 38%;}
+.pys-ingredientes{top: 41%;}
 
 /* Verduras */
-.verd-nombre{top: 41%;}
-.verd-ingredientes{top: 44%;}
+.verd-nombre{top: 49%;}
+.verd-ingredientes{top: 52%;}
 
 /* Fugazzeta */
-.fgzt-nombre{top: 47%;}
-.fgzt-ingredientes{top: 50%;}
+.fgzt-nombre{top: 58.5%;}
+.fgzt-ingredientes{top: 61.5%;}
 
 /* ---------------------------------------------------------------------------- ¿Por qué nosotros? ---------------------------------------------------------------------------- */
 /* Titulos */
 
-.section-title-pq, .section-title-fg{
+.section-title-pq > p, .section-title-fg > p, .section-title-te > p{
+    color: #cda45e;
+    font-size: 2.3em;
+    font-weight: 100;
+    width: 550px;
+}
+
+.section-title-pq, .section-title-fg, .section-title-te{
     position: absolute;
-    padding-bottom: 30px;
-    margin-top: 5%;
-    color: white;
 }
 
 .section-title-pq{
-    top: 25%;
-    left: 30.8%;
+    top: 35%;
+    left: 60.8%;
 }
 
 .section-title-fg{
-    top: 138%;
-    left: -25.8%;
+    top: 137.5%;
+    left: 4.35%;
 }
 
-.p em, .section-title-pq, .section-title-fg{
-    font-family: "Playfair Display", serif;
-    font-weight: 700;
-    font-size: 2.3em;
-    color: #cda45e;
-    margin-left: 30%;
+.section-title-te{
+    top: 208%;
+    left: 70.4%;
 }
 
 /* Textos */
-.texto1, .texto2{
+.texto1, .texto2, .texto3{
     position: absolute;
     font-weight: 400;
     font-size: 1.2em;
@@ -173,6 +183,11 @@ footer{
 }
 
 .texto2{
-    top: 155.3%;
+    top: 145.3%;
     left: 4.4%;
+}
+
+.texto3{
+    top: 216%;
+    left: 70.5%;
 }
