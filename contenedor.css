@@ -9,11 +9,6 @@
     font-family: "Montserrat";
 }
 
-body {
-    background: #1a1814;
-    color: #fff;
-}
-
 footer{
     align-items: flex-end;
     background-color: black;
@@ -24,105 +19,51 @@ footer{
     bottom: 0;
 }
 
-.fondo, .carousel-inner > .carousel-item > img{
-    height: 100vh;
-    width: 194.34vh;
-}
+.fondo, .carousel-inner > .carousel-item > img{height: 100vh; width: 194.34vh;}
 
-/* --------------------------------------------------------------------------------- Inicio ----------------------------------------------------------------------------------- */
-.titulo, .titulo2, .subtitulo, .subtitulo2{
-    text-align: center;
-    position: absolute;
-}
+/* ----------------------------------------------------------------------------- Inicio ----------------------------------------------------------------------------- */
+/* General */
+.titulo, .titulo2, .subtitulo, .subtitulo2{text-align: center; position: absolute;}
 
-.titulo{
-    top: 51%;
-    left: 37.35%;
-    font-size: 250%;
-    color: white;
-}
+.titulo, .subtitulo{color: white;}
+.titulo2, .subtitulo2{color:black;}
 
-.titulo2{
-    top: 51.1%;
-    left: 37.5%;
-    color:black
-}
+.titulo, .titulo2{font-size: 250%;}
+.subtitulo, .subtitulo2{font-size: 180%;}
 
-.subtitulo{
-    top: 60%;
-    left: 29%;
-    font-size: 180%;
-    color: white;
-}
+/*Posiciones*/
+.titulo{top: 51%; left: 37.35%;}
+.titulo2{top: 51.1%; left: 37.5%;}
+.subtitulo{top: 60%; left: 29%;}
+.subtitulo2{top: 60.1%; left: 29.15%;}
 
-.subtitulo2{
-    top: 60.1%;
-    left: 29.15%;
-    font-size: 180%;
-    color:black;
-}
-/* ----------------------------------------------------------------------------- Menu ------------------------------------------------------------------------------ */
+/* ----------------------------------------------------------------------------- Menu ----------------------------------------------------------------------------- */
 /* Titulo */
-.section-title{
-    position: absolute;
-    top: 8%;
-    left: 30.7%;
-    margin-top: 5%;
-}
-
-.section-title > p{
-    font-weight: 700;
-    font-size: 2.3em;
-    color: #cda45e;
-    margin-left: 114.8%;
-    width: 500px;
-}
+.section-title{position: absolute; top: 8%; left: 30.7%; margin-top: 5%;}
+.section-title > p{color: #cda45e; font-size: 2.3em; font-weight: 700; width: 500px; margin-left: 114.8%;}
 
 /* General */
-.muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{
-    position: absolute;
-    left: 61%;
-    padding-right: 10px;
-    z-index: 3;
-    transition: 0.3s;
-    font-weight: 700;
-    color: white;
-    justify-content: flex-start;
-}
+.muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{color: white; font-weight: 700; left: 61%; position: absolute;}
 
 .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{
-    position: absolute;
-    left: 47.3%;
+    color: #ffffff86;
     font-family: "Arial";
     font-style: italic;
     font-size: 14px;
-    color: #ffffff86;
-    margin-left: 250px;
-    padding-left: 10px;
+    left: 47.3%;
+    margin-left: 260px;
+    position: absolute;
 }
 
-.muzarella-nombre > span, .pys-nombre > span, .verd-nombre > span, .fgzt-nombre > span{
-    font-weight: 600;
-    color: #cda45e;
-}
+.muzarella-nombre a, .pys-nombre a, .verd-nombre a, .fgzt-nombre a{color: white; font-weight: 700; position: static;}
+.muzarella-nombre a:hover, .pys-nombre a:hover, .verd-nombre a:hover, .fgzt-nombre a:hover {color: #cda45e;}
+.muzarella-nombre > span, .pys-nombre > span, .verd-nombre > span, .fgzt-nombre > span{color: #cda45e; font-weight: 600;}
 
+/*  Posiciones */
 .muzarella-nombre > span{margin-left: 315px;}
 .pys-nombre > span{margin-left: 226px;}
 .verd-nombre > span{margin-left: 309px;}
 .fgzt-nombre > span{margin-left: 248px;}
-
-
-.muzarella-nombre a, .pys-nombre a, .verd-nombre a, .fgzt-nombre a {
-    padding-right: 10px;
-    position: static;
-    z-index: 3;
-    font-weight: 700;
-    color: white;
-    transition: 0.3s;
-    float: left;
-}
-
-.muzarella-nombre a:hover, .pys-nombre a:hover, .verd-nombre a:hover, .fgzt-nombre a:hover {color: #cda45e;}
 
 /* Muzzarella */
 .muzarella-nombre{top: 27%}
@@ -140,54 +81,19 @@ footer{
 .fgzt-nombre{top: 58.5%;}
 .fgzt-ingredientes{top: 61.5%;}
 
-/* ---------------------------------------------------------------------------- ¿Por qué nosotros? ---------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- ¿Por qué nosotros? ----------------------------------------------------------------------------- */
+/* General */
+
+.section-title-pq, .section-title-fg, .section-title-te{position: absolute;}
+.section-title-pq > p, .section-title-fg > p, .section-title-te > p{color: #cda45e; font-size: 2.3em; font-weight: 100; width: 550px;}
+.texto1, .texto2, .texto3{color: white; font-size: 1.2em; font-weight: 400; position: absolute;}
+
+/* Posiciones */ 
 /* Titulos */
-
-.section-title-pq > p, .section-title-fg > p, .section-title-te > p{
-    color: #cda45e;
-    font-size: 2.3em;
-    font-weight: 100;
-    width: 550px;
-}
-
-.section-title-pq, .section-title-fg, .section-title-te{
-    position: absolute;
-}
-
-.section-title-pq{
-    top: 35%;
-    left: 60.8%;
-}
-
-.section-title-fg{
-    top: 137.5%;
-    left: 4.35%;
-}
-
-.section-title-te{
-    top: 208%;
-    left: 70.4%;
-}
-
+.section-title-pq{top: 35%; left: 60.8%;}
+.section-title-fg{top: 137.5%; left: 4.35%;}
+.section-title-te{top: 208%; left: 70.4%;}
 /* Textos */
-.texto1, .texto2, .texto3{
-    position: absolute;
-    font-weight: 400;
-    font-size: 1.2em;
-    color: white;
-}
-
-.texto1{
-    top: 43%;
-    left: 61%;
-}
-
-.texto2{
-    top: 145.3%;
-    left: 4.4%;
-}
-
-.texto3{
-    top: 216%;
-    left: 70.5%;
-}
+.texto1{top: 43%; left: 61%;}
+.texto2{top: 145.3%; left: 4.4%;}
+.texto3{top: 216%; left: 70.5%;}
