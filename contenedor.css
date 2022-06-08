@@ -149,7 +149,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*margin-left:auto; margin-right: auto;*/
 
 /* -------------------------------------------------------------------------------- Responsive ------------------------------------------------------------------------------- */
-@media(min-width: 1200px){
+@media(max-width: 1440px){
     .fondo, .img-carousel{display: block; width: 100%; height: 100vh;}
     .fondo-480, .fondo-768, .fondo-992, .fondo-1200{display: none;}
 
@@ -163,28 +163,29 @@ footer > p{color: aliceblue; text-align: center;}
     .subtitulo{top: 52.5%; left: 20%;}
 /*[Menu]
 /*\-> Configuración:                                                                                                                                                           */
+    .section-title{font-size: 100%; white-space: nowrap;}
     .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre, 
     .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{white-space: pre-line; text-shadow: 2px 2px #000!important; padding-right: 1px;}
-    .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{font-size: 120%; color: #cda45e;}
-    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 100%; color:white; left: 53.5%; margin-left: 1px; padding-right: 20px;}
-    .precio, .section-title{display: none;}
+    .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{font-size: 150%; color: #cda45e;}
+    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 120%; color:white; left: 53.5%; margin-left: 1px; padding-right: 70px;}
+    .precio{display: none;}
 /*\-> Posiciones:                                                                                                                                                              */
-    .muzarella-nombre{top: 18.5%; left: 69.5%;}
-    .verd-nombre{top: 36%; left: 68.9%;}
+    .muzarella-nombre{top: 20%; left: 69.5%;}
+    .verd-nombre{top: 37.5%; left: 68.9%;}
     .fgzt-nombre{top: 54.5%; left: 66%;}
     .pys-nombre{top: 72.5%; left: 64.5%;}
-    .muzarella-ingredientes{top: 25%;}
-    .verd-ingredientes{top: 42.5%;}
+    .muzarella-ingredientes{top: 26.5%;}
+    .verd-ingredientes{top: 44%;}
     .fgzt-ingredientes{top: 61%;}
     .pys-ingredientes{top: 78.5%;}
 /*[Nosotros]
 /*\-> Configuración:                                                                                                                                                           */
-    .section-title-pq, .section-title-fg, .section-title-te{color: #cda45e; font-size: 180%!important}
-    .section-title-pq, .section-title-fg, .section-title-te, .texto1, .texto2, .texto3{text-shadow: 2px 2px #000!important;}
-    .texto1, .texto2, .texto3{left: 3%; white-space: pre-line; font-size: 107%; padding-left: 5%;}
-    .texto1{padding-right: 55px;}
-    .texto2{padding-right: 600px;}
-    .texto3{padding-right: 33px;}
+    .section-title-pq, .section-title-fg, .section-title-te{color: #cda45e; font-size: 240%!important}
+    .section-title-pq, .section-title-fg, .section-title-te, .texto1, .texto2, .texto3{text-shadow: 3px 3px #000!important;}
+    .texto1, .texto2, .texto3{left: 3%; white-space: pre-line; font-size: 160%; padding-left: 5%;}
+    .texto1{padding-right: 69px;}
+    .texto2{padding-right: 1000px;}
+    .texto3{padding-right: 100px;}
 /*\-> Posiciones:                                                                                                                                                              */
     .section-title-pq, .section-title-te{left: 58%;}
     .section-title-pq{top: 32%;}
@@ -213,17 +214,19 @@ footer > p{color: aliceblue; text-align: center;}
     .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre, 
     .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{white-space: pre-line; text-shadow: 2px 2px #000!important; padding-right: 1px;}
     .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{font-size: 120%; color: #cda45e;}
-    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 100%; color:white; left: 53.5%; margin-left: 1px; padding-right: 20px;}
-    .precio, .section-title{display: none;}
+    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 100%; color:white; left: 54%; margin-left: 1px; padding-right: 38px;}
+    .precio{display: none;}
+    .section-title{white-space: nowrap; font-size: 100%;}
 /*\-> Posiciones:                                                                                                                                                              */
-    .muzarella-nombre{top: 18.5%; left: 69.5%;}
-    .verd-nombre{top: 36%; left: 68.9%;}
-    .fgzt-nombre{top: 54.5%; left: 66%;}
-    .pys-nombre{top: 72.5%; left: 64.5%;}
-    .muzarella-ingredientes{top: 25%;}
-    .verd-ingredientes{top: 42.5%;}
-    .fgzt-ingredientes{top: 61%;}
-    .pys-ingredientes{top: 78.5%;}
+    .section-title{top: 0%; left: 14%}
+    .muzarella-nombre{top: 25%; left: 70%;}
+    .verd-nombre{top: 41%; left: 69.3%;}
+    .fgzt-nombre{left: 66.5%;}
+    .pys-nombre{left: 65.2%;}
+    .muzarella-ingredientes{top: 31.5%;}
+    .verd-ingredientes{top: 47%;}
+    .fgzt-ingredientes{top: 62.5%;}
+    .pys-ingredientes{top: 80%;}
 /*[Nosotros]
 /*\-> Configuración:                                                                                                                                                           */
     .section-title-pq, .section-title-fg, .section-title-te{color: #cda45e; font-size: 180%!important}
@@ -231,7 +234,7 @@ footer > p{color: aliceblue; text-align: center;}
     .texto1, .texto2, .texto3{left: 3%; white-space: pre-line; font-size: 107%; padding-left: 5%;}
     .texto1{padding-right: 55px;}
     .texto2{padding-right: 600px;}
-    .texto3{padding-right: 33px;}
+    .texto3{padding-right: 45px;}
 /*\-> Posiciones:                                                                                                                                                              */
     .section-title-pq, .section-title-te{left: 58%;}
     .section-title-pq{top: 32%;}
@@ -249,6 +252,15 @@ footer > p{color: aliceblue; text-align: center;}
 /*  \-> Posiciones:                                                                                                                                                            */
         .titulo{left: 35.8%;}
         .subtitulo{left: 20.3%}
+/*  [Menu]
+    \-> Configuración:                                                                                                                                                         */
+        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 36px;}
+/*  \-> Posiciones:                                                                                                                                                            */
+        .section-title{top: 0%; left: 13.5%}
+/*  [Nosotros]
+    \-> Configuración:                                                                                                                                                         */
+        .texto1{padding-right: 75px;}
+        .texto3{padding-right: 40px;}
         @media(max-width: 1180px){
 /*      [Inicio]
         \-> Configuración:                                                                                                                                                     */
@@ -256,6 +268,15 @@ footer > p{color: aliceblue; text-align: center;}
 /*      \-> Posiciones:                                                                                                                                                        */
             .titulo{left: 35.65%;}
             .subtitulo{left: 20.7%}
+/*      [Menu]
+        \-> Configuración:                                                                                                                                                         */
+            .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 34px;}
+/*      \-> Posiciones:                                                                                                                                                             */
+            .section-title{left: 13%}
+/*      [Nosotros]
+        \-> Configuración:                                                                                                                                                     */
+            .texto1{padding-right: 75px;}
+            .texto3{padding-right: 35px;}
             @media(max-width: 1170px){
 /*          [Inicio]
             \-> Configuración:                                                                                                                                                 */
@@ -263,9 +284,16 @@ footer > p{color: aliceblue; text-align: center;}
 /*          \-> Posiciones:                                                                                                                                                    */
                 .titulo{left: 35.5%;}
                 .subtitulo{left: 21.1%}
+/*          [Menu]
+            \-> Configuración:                                                                                                                                                         */
+                .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 32px;}
+/*             \-> Posiciones:                                                                                                                                                             */
+                .section-title{left: 12.5%}
 /*          [Nosotros]
             \-> Configuración:                                                                                                                                                 */
+                .texto1{padding-right: 70px;}
                 .texto2{padding-right: 590px;}
+                .texto3{padding-right: 30px;}
                 @media(max-width: 1160px){
 /*              [Inicio]
                 \-> Configuración:                                                                                                                                             */
@@ -273,9 +301,22 @@ footer > p{color: aliceblue; text-align: center;}
 /*              \-> Posiciones:                                                                                                                                                */
                     .titulo{left: 35.35%;}
                     .subtitulo{left: 21.5%}
+/*              [Menu]
+                \-> Configuración:                                                                                                                                                         */
+                    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 30px;}
+/*              \-> Posiciones:                                                                                                                                                             */
+                    .section-title{left: 12%}
+                    .muzarella-nombre{top: 25%; left: 70%;}
+                    .verd-nombre{top: 41%; left: 69.3%;}
+                    .fgzt-nombre{left: 66.5%;}
+                    .pys-nombre{left: 65.2%;}
+                    .muzarella-ingredientes{top: 31.5%;}
+                    .verd-ingredientes{top: 47%;}
 /*              [Nosotros]
                 \-> Configuración:                                                                                                                                             */
+                    .texto1{padding-right: 65px;}
                     .texto2{padding-right: 585px;}
+                    .texto3{padding-right: 25px;}
                     @media(max-width: 1150px){
 /*                  [Inicio]
                     \-> Configuración:                                                                                                                                         */
@@ -283,9 +324,15 @@ footer > p{color: aliceblue; text-align: center;}
 /*                  \-> Posiciones:                                                                                                                                            */
                         .titulo{left: 35.20%;}
                         .subtitulo{left: 21.9%}
+/*                  [Menu]
+                    \-> Configuración:                                                                                                                                                         */
+                        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 28px;}
+/*                  \-> Posiciones:                                                                                                                                                           */
+                        .section-title{left: 11.5%}
 /*                  [Nosotros]
                     \-> Configuración:                                                                                                                                         */
                         .texto2{padding-right: 570px;}
+                        .texto3{padding-right: 23px;}
                         @media(max-width: 1140px){
 /*                      [Inicio]
                         \-> Configuración:                                                                                                                                     */
@@ -293,9 +340,16 @@ footer > p{color: aliceblue; text-align: center;}
 /*                      \-> Posiciones:                                                                                                                                        */
                             .titulo{left: 35.05%;}
                             .subtitulo{left: 22.3%}
+/*                      [Menu]
+                        \-> Configuración:                                                                                                                                                         */
+                            .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 26px;}
+/*                      \-> Posiciones:                                                                                                                                        */
+                            .section-title{left: 11%}
 /*                      [Nosotros]
                         \-> Configuración:                                                                                                                                     */
+                            .texto1{padding-right: 60px;}
                             .texto2{padding-right: 560px;}
+                            .texto3{padding-right: 21px;}
                             @media(max-width: 1130px){
 /*                          [Inicio]
                             \-> Configuración:                                                                                                                                 */
@@ -303,9 +357,16 @@ footer > p{color: aliceblue; text-align: center;}
 /*                          \-> Posiciones:                                                                                                                                    */
                                 .titulo{left: 34.9%;}
                                 .subtitulo{left: 22.7%}
+/*                          [Menu]
+                            \-> Configuración:                                                                                                                                                         */
+                                .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 24px;}
+/*                          \-> Posiciones:                                                                                                                                                           */
+                                .section-title{left: 10.5%}
 /*                          [Nosotros]
                             \-> Configuración:                                                                                                                                 */
+                                .texto1{padding-right: 55px;}
                                 .texto2{padding-right: 550px;}
+                                .texto3{padding-right: 19px;}
                                 @media(max-width: 1120px){
 /*                              [Inicio]
                                 \-> Configuración:                                                                                                                             */
@@ -313,19 +374,42 @@ footer > p{color: aliceblue; text-align: center;}
 /*                              \-> Posiciones:                                                                                                                                */
                                     .titulo{left: 34.75%;}
                                     .subtitulo{left: 23.1%}
+/*                              [Menu]
+                                \-> Configuración:                                                                                                                                                         */
+                                    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 22px;}
+/*                              \-> Posiciones:                                                                                                                                                            */
+                                    .section-title{left: 10%}
+                                    .muzarella-nombre{left: 70%;}
+                                    .verd-nombre{left: 69.5%;}
+                                    .fgzt-nombre{left: 66%;}
+                                    .pys-nombre{left: 64.7%;}
+                                    .muzarella-ingredientes{top: 31%;}
 /*                              [Nosotros]
                                 \-> Configuración:                                                                                                                             */
+                                    .texto1{padding-right: 50px;}
                                     .texto2{padding-right: 540px;}
+                                    .texto3{padding-right: 17px;}
                                     @media(max-width: 1110px){
 /*                                  [Inicio]
                                     \-> Configuración:                                                                                                                         */
                                         .subtitulo{font-size: 122%;}
 /*                                  \-> Posiciones:                                                                                                                            */
                                         .titulo{left: 34.6%;}
-                                        .subtitulo{left: 23.5%}
+/*                                  [Menu]
+                                    \-> Configuración:                                                                                                                                                         */
+                                        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 20px;}
+/*                                  \-> Posiciones:                                                                                                                                                            */
+                                        .section-title{left: 9.5%}
+                                        .muzarella-nombre{top: 24.5%; left: 69.5%;}
+                                        .verd-nombre{top: 40.5%; left: 69%;}
+                                        .fgzt-nombre{left: 65.5%;}
+                                        .pys-nombre{left: 64.2%;}
+                                        .muzarella-ingredientes{top: 30.5%;}
 /*                                  [Nosotros]
                                     \-> Configuración:                                                                                                                         */
+                                        .texto1{padding-right: 46px;}
                                         .texto2{padding-right: 530px;}
+                                        .texto3{padding-right: 15px;}
                                         @media(max-width: 1100px){
 /*                                      [Inicio]
                                         \-> Configuración:                                                                                                                     */
@@ -333,9 +417,21 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                      \-> Posiciones:                                                                                                                        */
                                             .titulo{left: 34.45%;}
                                             .subtitulo{left: 23.9%}
+/*                                      [Menu]
+                                        \-> Configuración:                                                                                                                                                         */
+                                            .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 16px;}
+/*                                      \-> Posiciones:                                                                                                                                                            */
+                                            .section-title{left: 9%}
+                                            .muzarella-nombre{top: 24%; left: 69%;}
+                                            .verd-nombre{left: 68.5%;}
+                                            .fgzt-nombre{left: 65%;}
+                                            .pys-nombre{left: 63.7%;}
+                                            .muzarella-ingredientes{top: 30%;}
 /*                                      [Nosotros]
                                         \-> Configuración:                                                                                                                     */
+                                            .texto1{padding-right: 42px;}
                                             .texto2{padding-right: 520px;}
+                                            .texto3{padding-right: 13px;}
                                             @media(max-width: 1090px){
 /*                                          [Inicio]
                                             \-> Configuración:                                                                                                                 */
@@ -343,9 +439,21 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                          \-> Posiciones:                                                                                                                    */
                                                 .titulo{left: 34.3%;}
                                                 .subtitulo{left: 24.3%}
+/*                                          [Menu]
+                                            \-> Configuración:                                                                                                                                                         */
+                                                .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 12px;}
+/*                                          \-> Posiciones:                                                                                                                                                            */
+                                                .section-title{left: 8.5%}
+                                                .muzarella-nombre{top: 23.5%; left: 68.5%;}
+                                                .verd-nombre{left: 68%;}
+                                                .fgzt-nombre{left: 64.5%;}
+                                                .pys-nombre{left: 63.2%;}
+                                                .muzarella-ingredientes{top: 29.5%;}
 /*                                          [Nosotros]
                                             \-> Configuración:                                                                                                                 */
+                                                .texto1{padding-right: 38px;}
                                                 .texto2{padding-right: 510px;}
+                                                .texto3{padding-right: 11px;}
                                                 @media(max-width: 1080px){
 /*                                              [Inicio]
                                                 \-> Configuración:                                                                                                             */
@@ -353,19 +461,46 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                              \-> Posiciones:                                                                                                                */
                                                     .titulo{left: 34.15%;}
                                                     .subtitulo{left: 24.7%}
+/*                                              [Menu]
+                                                \-> Configuración:                                                                                                                                                         */
+                                                    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 12px;}
+/*                                              \-> Posiciones:                                                                                                                                                            */
+                                                    .section-title{left: 8%}
+                                                    .muzarella-nombre{top: 23%; left: 68%;}
+                                                    .verd-nombre{top: 40%; left: 67.5%;}
+                                                    .fgzt-nombre{left: 64.3%;}
+                                                    .pys-nombre{left: 62.7%;}
+                                                    .muzarella-ingredientes{top: 29%;}
+                                                    .verd-ingredientes{top: 46.5%;}
 /*                                              [Nosotros]
                                                 \-> Configuración:                                                                                                             */
+                                                    .texto1{padding-right: 34px;}
                                                     .texto2{padding-right: 500px;}
+                                                    .texto3{padding-right: 9px;}
                                                     @media(max-width: 1070px){
 /*                                                  [Inicio]
                                                     \-> Configuración:                                                                                                         */
                                                         .subtitulo{font-size: 116%;}
 /*                                                  \-> Posiciones:                                                                                                            */
                                                         .titulo{left: 34%;}
-                                                        .subtitulo{left: 25.1%}
+                                                        .subtitulo{left: 25.1%;}
+/*                                                  [Menu]
+                                                    \-> Configuración:                                                                                                         */
+                                                        .section-title{font-size: 95%;}
+                                                        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 10px;}
+/*                                                  \-> Posiciones:                                                                                                                                                            */
+                                                        .section-title{top: 0.5%; left: 11.5%;}
+                                                        .muzarella-nombre{top: 22.5%; left: 67.5%;}
+                                                        .verd-nombre{top: 39.5%; left: 67%;}
+                                                        .fgzt-nombre{left: 63.8%;}
+                                                        .pys-nombre{left: 62.2%;}
+                                                        .muzarella-ingredientes{top: 28.5%;}
+                                                        .verd-ingredientes{top: 46%;}
 /*                                                  [Nosotros]
                                                     \-> Configuración:                                                                                                         */
+                                                        .texto1{padding-right: 30px;}
                                                         .texto2{padding-right: 490px;}
+                                                        .texto3{padding-right: 7px;}
                                                         @media(max-width: 1060px){
 /*                                                      [Inicio]
                                                         \-> Configuración:                                                                                                     */
@@ -373,19 +508,39 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                      \-> Posiciones:                                                                                                        */
                                                             .titulo{left: 33.85%;}
                                                             .subtitulo{left: 25.5%}
+/*                                                      [Menu]
+                                                        \-> Configuración:                                                                                                         */
+                                                            .section-title{font-size: 90%;}
+/*                                                      \-> Posiciones:                                                                                                                                                             */
+                                                            .section-title{top: 1%; left: 13%;}
+                                                            .muzarella-nombre{left: 67%;}
+                                                            .verd-nombre{left: 66.5%;}
+                                                            .fgzt-nombre{left: 63.3%;}
+                                                            .pys-nombre{left: 61.7%;}
 /*                                                      [Nosotros]
                                                         \-> Configuración:                                                                                                     */
+                                                            .texto1{padding-right: 26px;}
                                                             .texto2{padding-right: 480px;}
+                                                            .texto3{padding-right: 5px;}
                                                             @media(max-width: 1050px){
 /*                                                          [Inicio]
                                                             \-> Configuración:                                                                                                 */
                                                                 .subtitulo{font-size: 112%; padding-right: 385px;}
 /*                                                          \-> Posiciones:                                                                                                    */
                                                                 .titulo{left: 33.7%;}
-                                                                .subtitulo{left: 25.9%}
+                                                                .subtitulo{left: 25.9%;}
+/*                                                          [Menu]
+                                                            \-> Posiciones:                                                                                                                                                            */
+                                                                .section-title{left: 12%}
+                                                                .muzarella-nombre{left: 67.5%;}
+                                                                .verd-nombre{left: 66.8%;}
+                                                                .fgzt-nombre{left: 64%;}
+                                                                .pys-nombre{left: 62.7%;}
 /*                                                          [Nosotros]
                                                             \-> Configuración:                                                                                                 */
+                                                                .texto1{padding-right: 22px;}
                                                                 .texto2{padding-right: 470px;}
+                                                                .texto3{padding-right: 3px;}
                                                                 @media(max-width: 1040px){
 /*                                                              [Inicio]
                                                                 \-> Configuración:                                                                                             */
@@ -393,9 +548,18 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                              \-> Posiciones:                                                                                                */
                                                                     .titulo{left: 34.1%;}
                                                                     .subtitulo{left: 23%}
+/*                                                              [Menu]
+                                                                \-> Posiciones:                                                                                                                                                            */
+                                                                    .section-title{left: 10.3%}
+                                                                    .muzarella-nombre{left: 67%;}
+                                                                    .verd-nombre{left: 66.3%;}
+                                                                    .fgzt-nombre{left: 63.5%;}
+                                                                    .pys-nombre{left: 62.2%;}
 /*                                                              [Nosotros]
                                                                 \-> Configuración:                                                                                             */
+                                                                    .texto1{padding-right: 18px;}
                                                                     .texto2{padding-right: 460px;}
+                                                                    .texto3{padding-right: 20px;}
                                                                     @media(max-width: 1030px){
 /*                                                                  [Inicio]
                                                                     \-> Configuración:                                                                                         */
@@ -403,9 +567,20 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                                  \-> Posiciones:                                                                                            */
                                                                         .titulo{left: 33.9%;}
                                                                         .subtitulo{left: 22%}
+/*                                                                  [Menu]
+                                                                    \-> Posiciones:                                                                                                                                                            */
+                                                                        .section-title{left: 9.8%}
+                                                                        .muzarella-nombre{top: 21.5%; left: 66.5%;}
+                                                                        .verd-nombre{top: 39%; left: 65.8%;}
+                                                                        .fgzt-nombre{left: 63%;}
+                                                                        .pys-nombre{left: 61.7%;}
+                                                                        .muzarella-ingredientes{top: 28%;}
+                                                                        .verd-ingredientes{top: 45.5%;}
 /*                                                                  [Nosotros]
                                                                     \-> Configuración:                                                                                         */
+                                                                        .texto1{padding-right: 15px;}
                                                                         .texto2{padding-right: 450px;}
+                                                                        .texto3{padding-right: 15px;}
                                                                         @media(max-width: 1020px){
 /*                                                                      [Inicio]
                                                                         \-> Configuración:                                                                                     */
@@ -413,9 +588,20 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                                      \-> Posiciones:                                                                                        */
                                                                             .titulo{left: 33.7%;}
                                                                             .subtitulo{left: 23%}
+/*                                                                      [Menu]
+                                                                        \-> Posiciones:                                                                                                                                                            */
+                                                                            .section-title{left: 9.3%}
+                                                                            .muzarella-nombre{top: 21%; left: 67%;}
+                                                                            .verd-nombre{top: 38.5%; left: 66.4%;}
+                                                                            .fgzt-nombre{left: 62.5%;}
+                                                                            .pys-nombre{left: 61.2%;}
+                                                                            .muzarella-ingredientes{top: 27.5%;}
+                                                                            .verd-ingredientes{top: 45%;}
 /*                                                                      [Nosotros]
                                                                         \-> Configuración:                                                                                     */
+                                                                            .texto1{padding-right: 10px;}
                                                                             .texto2{padding-right: 440px;}
+                                                                            .texto3{padding-right: 10px;}
                                                                             @media(max-width: 1010px){
 /*                                                                          [Inicio]
                                                                             \-> Configuración:                                                                                 */
@@ -423,9 +609,20 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                                          \-> Posiciones:                                                                                    */
                                                                                 .titulo{left: 33.5%;}
                                                                                 .subtitulo{left: 24%}
+/*                                                                          [Menu]
+                                                                            \-> Posiciones:                                                                                                                                                            */
+                                                                                .section-title{left: 8.8%}
+                                                                                .muzarella-nombre{top: 20.5%; left: 66.5%;}
+                                                                                .verd-nombre{top: 38%; left: 65.9%;}
+                                                                                .fgzt-nombre{left: 62%;}
+                                                                                .pys-nombre{left: 60.7%;}
+                                                                                .muzarella-ingredientes{top: 27%;}
+                                                                                .verd-ingredientes{top: 44.5%;}
 /*                                                                          [Nosotros]
                                                                             \-> Configuración:                                                                                 */
+                                                                                .texto1{padding-right: 6px;}
                                                                                 .texto2{padding-right: 430px;}
+                                                                                .texto3{padding-right: 6px;}
                                                                                 @media(max-width: 1000px){
 /*                                                                              [Inicio]
                                                                                 \-> Configuración:                                                                             */
@@ -433,9 +630,20 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                                              \-> Posiciones:                                                                                */
                                                                                     .titulo{left: 33.25%;}
                                                                                     .subtitulo{left: 25%}
+/*                                                                              [Menu]
+                                                                                \-> Posiciones:                                                                                                                                                            */
+                                                                                    .section-title{left: 8.3%}
+                                                                                    .muzarella-nombre{top: 20%; left: 66%;}
+                                                                                    .verd-nombre{top: 37.5%; left: 65.4%;}
+                                                                                    .fgzt-nombre{left: 61.5%;}
+                                                                                    .pys-nombre{left: 60.2%;}
+                                                                                    .muzarella-ingredientes{top: 26.5%;}
+                                                                                    .verd-ingredientes{top: 44%;}
 /*                                                                              [Nosotros]
                                                                                 \-> Configuración:                                                                             */
+                                                                                    .texto1{padding-right: 2px;}
                                                                                     .texto2{padding-right: 420px;}
+                                                                                    .texto3{padding-right: 4px;}
 }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }
 
 
@@ -452,25 +660,28 @@ footer > p{color: aliceblue; text-align: center;}
     .subtitulo{top: 53%; left: 26%;}
 /*[Menu]
 /*\-> Configuración:                                                                                                                                                           */
+    .section-title{white-space: nowrap; font-size: 90%;}
     .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre, 
     .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{white-space: pre-line; text-shadow: 2px 2px #000!important; padding-right: 1px;}
     .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{font-size: 120%; color: #cda45e;}
     .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 100%; color:white; left: 53.5%; margin-left: 1px; padding-right: 20px;}
-    .precio, .section-title{display: none;}
+    .precio{display: none;}
 /*\-> Posiciones:                                                                                                                                                              */
-    .muzarella-nombre{top: 18.5%; left: 66.7%;}
-    .verd-nombre{top: 36%; left: 65.7%;}
-    .fgzt-nombre{top: 54.5%; left: 61.5%;}
-    .pys-nombre{top: 72.5%; left: 60.2%;}
-    .muzarella-ingredientes{top: 25%;}
-    .verd-ingredientes{top: 42.5%;}
-    .fgzt-ingredientes{top: 61%;}
-    .pys-ingredientes{top: 78.5%;}
+    .section-title{top: 1%; left: 7.8%}
+    .muzarella-nombre{top: 20%; left: 66.7%;}
+    .verd-nombre{top: 37.5%; left: 65.7%;}
+    .fgzt-nombre{top: 56%; left: 61.5%;}
+    .pys-nombre{top: 74%; left: 60.2%;}
+    .muzarella-ingredientes{top: 26.5%;}
+    .verd-ingredientes{top: 44%;}
+    .fgzt-ingredientes{top: 62.5%;}
+    .pys-ingredientes{top: 80%;}
 /*[Nosotros]
 /*\-> Configuración:                                                                                                                                                           */
     .section-title-pq, .section-title-fg, .section-title-te{color: #cda45e; font-size: 140%!important}
     .section-title-pq, .section-title-fg, .section-title-te, .texto1, .texto2, .texto3{text-shadow: 2px 2px #000!important;}
-    .texto1, .texto2, .texto3{left: 3%; white-space: pre-line; font-size: 100%; padding-left: 5%; padding-right: 20px;}
+    .texto1, .texto2, .texto3{left: 3%; white-space: pre-line; font-size: 100%; padding-left: 5%; padding-right: 10px;}
+    .texto2{padding-right: 450px;}
 /*\-> Posiciones:                                                                                                                                                              */
     .section-title-pq, .section-title-te{left: 55%;}
     .section-title-pq{top: 35%;}
@@ -478,7 +689,7 @@ footer > p{color: aliceblue; text-align: center;}
     .section-title-te{top: 210%;}
     .texto1, .texto3{left: 50%;}
     .texto1{top: 43%;}
-    .texto2{top: 135%; padding-right: 450px;}
+    .texto2{top: 135%;}
     .texto3{top: 218%;}
 
     @media(max-width: 980px){
@@ -491,6 +702,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*  [Menu]
     \-> Configuración:                                                                                                                                                         */
         .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{padding-right: 15px;}
+        .section-title{top: -0.5%; left: 6.8%;}
 /*  [Nosotros]
     \-> Configuración:                                                                                                                                                         */
         .texto1, .texto3{padding-right: 25px;}
@@ -512,6 +724,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*      [Menu]
         \-> Configuración:                                                                                                                                                     */
             .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{padding-right: 10px;}
+            .section-title{top: -1%; left: 5.8%;}
 /*      [Nosotros]
         \-> Configuración:                                                                                                                                                     */
             .texto1, .texto3{padding-right: 20px;}
@@ -527,9 +740,12 @@ footer > p{color: aliceblue; text-align: center;}
 /*          [Inicio]
             \-> Configuración:                                                                                                                                                 */
                 .subtitulo{padding-right: 352px;}
-/*            \-> Posiciones:                                                                                                                                                  */
+/*          \-> Posiciones:                                                                                                                                                    */
                 .titulo{left: 32.91%;}
                 .subtitulo{left: 25.1%;}
+/*          [Menu]
+            \-> Posiciones:                                                                                                                                                    */
+                .section-title{top: -1.5%; left: 4.8%;}
 /*          [Nosotros]
             \-> Configuración:                                                                                                                                                 */
                 .texto1, .texto3{padding-right: 40px;}
@@ -550,6 +766,7 @@ footer > p{color: aliceblue; text-align: center;}
                     .subtitulo{left: 24.8%;}
 /*              [Menu]
                 \-> Posiciones:                                                                                                                                                */
+                    .section-title{top: -2%; left: 3.8%;}
                     .muzarella-nombre{top: 18.5%; left: 66.2%;}
                     .verd-nombre{top: 36%; left: 65.2%;}
                     .fgzt-nombre{top: 54.5%; left: 61%;}
@@ -576,6 +793,7 @@ footer > p{color: aliceblue; text-align: center;}
                     \-> Configuración:                                                                                                                                         */
                         .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 52.5%; padding-right: 15px;}
 /*                  \-> Posiciones:                                                                                                                                            */
+                        .section-title{top: -2.5%; left: 2.8%;}
                         .muzarella-nombre{top: 18.5%; left: 65.7%;}
                         .verd-nombre{top: 36%; left: 64.7%;}
                         .fgzt-nombre{top: 54.5%; left: 60.5%;}
@@ -602,6 +820,7 @@ footer > p{color: aliceblue; text-align: center;}
                         \-> Configuración:                                                                                                                                     */
                             .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 51.5%; padding-right: 20px;}
 /*                      \-> Posiciones:                                                                                                                                        */
+                            .section-title{top: -3%; left: 1.8%;}
                             .muzarella-nombre{left: 65.2%;}
                             .verd-nombre{left: 64.2%;}
                             .fgzt-nombre{left: 60%;}
@@ -628,6 +847,7 @@ footer > p{color: aliceblue; text-align: center;}
                             \-> Configuración:                                                                                                                                 */
                                 .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 50.5%; padding-right: 25px;}
 /*                          \-> Posiciones:                                                                                                                                    */
+                                .section-title{top: -3.5%; left: 0.8%;}
                                 .muzarella-nombre{left: 64.7%;}
                                 .verd-nombre{left: 63.7%;}
                                 .fgzt-nombre{left: 59.5%;}
@@ -654,6 +874,7 @@ footer > p{color: aliceblue; text-align: center;}
                                 \-> Configuración:                                                                                                                             */
                                     .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 49.5%; padding-right: 30px;}
 /*                              \-> Posiciones:                                                                                                                                */
+                                    .section-title{top: -4%; left: -1.8%;}
                                     .muzarella-nombre{top: 18.5%; left: 64.2%;}
                                     .verd-nombre{top: 36%; left: 63.2%;}
                                     .fgzt-nombre{top: 54.5%; left: 59%;}
@@ -683,6 +904,8 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                  [Menu]
                                     \-> Configuración:                                                                                                                         */
                                         .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 48.5%; padding-right: 35px;}
+/*                                  \-> Posiciones:                                                                                                                            */
+                                        .section-title{top: -4.5%; left:-2.8%;}
 /*                                  [Nosotros]
                                     \-> Configuración:                                                                                                                         */
                                         .texto1, .texto3{padding-right: 140px;}
@@ -704,6 +927,8 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                      [Menu]
                                         \-> Configuración:                                                                                                                     */
                                             .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 46.5%; padding-right: 40px;}
+/*                                      \-> Posiciones:                                                                                                                        */
+                                            .section-title{top:-5%; left:-3.8%;}
 /*                                      [Nosotros]
                                         \-> Configuración:                                                                                                                     */
                                             .texto1, .texto3{padding-right: 160px;}
@@ -721,6 +946,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                          [Menu]
                                             \-> Configuración:                                                                                                                 */
                                                 .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 44.5%; padding-right: 25px;}
+                                                .section-title{display: none;}
 /*                                          [Nosotros]
                                             \-> Configuración:                                                                                                                 */
                                                 .texto1, .texto3{padding-right: 165px;}
