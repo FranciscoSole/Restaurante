@@ -149,13 +149,15 @@ footer > p{color: aliceblue; text-align: center;}
 /*margin-left:auto; margin-right: auto;*/
 
 /* -------------------------------------------------------------------------------- Responsive ------------------------------------------------------------------------------- */
-@media(max-width: 1440px){
+@media(max-width: 1920px){
     .fondo, .img-carousel{display: block; width: 100%; height: 100vh;}
     .fondo-480, .fondo-768, .fondo-992, .fondo-1200{display: none;}
 
+    
+    .nav-item{margin-bottom: 7px}
 /*[Inicio]
 /*\-> Configuración:                                                                                                                                                           */
-    .titulo{font-size: 350%; color: #DFA747; text-shadow: 3px 3px #000!important}
+    .titulo{font-size: 350%; color: #cda45e; text-shadow: 3px 3px #000!important}
     .subtitulo{font-size: 220%; padding-right: 620px;}
     .nav-link{margin-top: 9px!important;}
 /*\-> Posiciones:                                                                                                                                                              */
@@ -163,21 +165,22 @@ footer > p{color: aliceblue; text-align: center;}
     .subtitulo{top: 52.5%; left: 20%;}
 /*[Menu]
 /*\-> Configuración:                                                                                                                                                           */
-    .section-title{font-size: 100%; white-space: nowrap;}
+    .section-title{font-size: 153%; white-space: nowrap;}
     .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre, 
     .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{white-space: pre-line; text-shadow: 2px 2px #000!important; padding-right: 1px;}
-    .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{font-size: 150%; color: #cda45e;}
-    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 120%; color:white; left: 53.5%; margin-left: 1px; padding-right: 70px;}
+    .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{font-size: 190%; color: #cda45e;}
+    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 160%; color:white; left: 53.5%; margin-left: 1px; padding-right: 70px;}
     .precio{display: none;}
 /*\-> Posiciones:                                                                                                                                                              */
-    .muzarella-nombre{top: 20%; left: 69.5%;}
-    .verd-nombre{top: 37.5%; left: 68.9%;}
-    .fgzt-nombre{top: 54.5%; left: 66%;}
-    .pys-nombre{top: 72.5%; left: 64.5%;}
-    .muzarella-ingredientes{top: 26.5%;}
-    .verd-ingredientes{top: 44%;}
-    .fgzt-ingredientes{top: 61%;}
-    .pys-ingredientes{top: 78.5%;}
+    .section-title{top: 0%; left: 16%}
+    .muzarella-nombre{top: 21%; left: 67%;}
+    .verd-nombre{top: 35%; left: 66.5%;}
+    .fgzt-nombre{top: 49%; left: 64%;}
+    .pys-nombre{top: 64%; left: 62.7%;}
+    .muzarella-ingredientes{top: 26%;}
+    .verd-ingredientes{top: 40%;}
+    .fgzt-ingredientes{top: 54%;}
+    .pys-ingredientes{top: 69%;}
 /*[Nosotros]
 /*\-> Configuración:                                                                                                                                                           */
     .section-title-pq, .section-title-fg, .section-title-te{color: #cda45e; font-size: 240%!important}
@@ -221,8 +224,8 @@ footer > p{color: aliceblue; text-align: center;}
     .section-title{top: 0%; left: 14%}
     .muzarella-nombre{top: 25%; left: 70%;}
     .verd-nombre{top: 41%; left: 69.3%;}
-    .fgzt-nombre{left: 66.5%;}
-    .pys-nombre{left: 65.2%;}
+    .fgzt-nombre{top: 56%; left: 66.5%;}
+    .pys-nombre{top: 74%; left: 65.2%;}
     .muzarella-ingredientes{top: 31.5%;}
     .verd-ingredientes{top: 47%;}
     .fgzt-ingredientes{top: 62.5%;}
