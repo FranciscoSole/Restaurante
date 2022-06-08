@@ -166,12 +166,12 @@
     @media(max-width:1481px){.empuje{margin-left:1070px}} @media(max-width:1471px){.empuje{margin-left:1060px}} @media(max-width:1461px){.empuje{margin-left:1050px}} 
     @media(max-width:1451px){.empuje{margin-left:1040px}} @media(max-width:1441px){.empuje{margin-left:1030px}} @media(max-width:1431px){.empuje{margin-left:1020px}} 
     @media(max-width:1421px){.empuje{margin-left:1010px}} @media(max-width:1411px){.empuje{margin-left:1000px}} @media(max-width:1401px){.empuje{margin-left:990px}} 
-    @media(max-width:1391px){.empuje{margin-left:980px}} @media(max-width:1381px){.empuje{margin-left:970px}} @media(max-width:1371px){.empuje{margin-left:960px}} 
-    @media(max-width:1361px){.empuje{margin-left:950px}} @media(max-width:1351px){.empuje{margin-left:940px}} @media(max-width:1341px){.empuje{margin-left:930px}} 
-    @media(max-width:1331px){.empuje{margin-left:920px}} @media(max-width:1321px){.empuje{margin-left:910px}} @media(max-width:1311px){.empuje{margin-left:900px}} 
-    @media(max-width:1301px){.empuje{margin-left:890px}} @media(max-width:1291px){.empuje{margin-left:880px}} @media(max-width:1281px){.empuje{margin-left:870px}} 
-    @media(max-width:1271px){.empuje{margin-left:860px}} @media(max-width:1261px){.empuje{margin-left:850px}} @media(max-width:1251px){.empuje{margin-left:840px}} 
-    @media(max-width:1241px){.empuje{margin-left:830px}} @media(max-width:1231px){.empuje{margin-left:820px}} @media(max-width:1221px){.empuje{margin-left:810px}} 
+    @media(max-width:1391px){.empuje{margin-left:980px}}  @media(max-width:1381px){.empuje{margin-left:970px}}  @media(max-width:1371px){.empuje{margin-left:960px}} 
+    @media(max-width:1361px){.empuje{margin-left:950px}}  @media(max-width:1351px){.empuje{margin-left:940px}}  @media(max-width:1341px){.empuje{margin-left:930px}} 
+    @media(max-width:1331px){.empuje{margin-left:920px}}  @media(max-width:1321px){.empuje{margin-left:910px}}  @media(max-width:1311px){.empuje{margin-left:900px}} 
+    @media(max-width:1301px){.empuje{margin-left:890px}}  @media(max-width:1291px){.empuje{margin-left:880px}}  @media(max-width:1281px){.empuje{margin-left:870px}} 
+    @media(max-width:1271px){.empuje{margin-left:860px}}  @media(max-width:1261px){.empuje{margin-left:850px}}  @media(max-width:1251px){.empuje{margin-left:840px}} 
+    @media(max-width:1241px){.empuje{margin-left:830px}}  @media(max-width:1231px){.empuje{margin-left:820px}}  @media(max-width:1221px){.empuje{margin-left:810px}} 
     @media(max-width:1211px){.empuje{margin-left:800px}}
 }
 
@@ -213,11 +213,11 @@
     @media(max-width:505px){.empuje{margin-left:180px}} @media(max-width:495px){.empuje{margin-left:170px}} @media(max-width:485px){.empuje{margin-left:160px}}
     @media(max-width:475px){.empuje{margin-left:150px}} @media(max-width:465px){.empuje{margin-left:140px}} @media(max-width:455px){.empuje{margin-left:130px}}
     @media(max-width:445px){.empuje{margin-left:120px}} @media(max-width:435px){.empuje{margin-left:110px}} @media(max-width:425px){.empuje{margin-left:100px}}
-    @media(max-width:415px){.empuje{margin-left:140px}} @media(max-width:405px){.empuje{margin-left:13px}} @media(max-width:395px){.empuje{margin-left:120px}}
+    @media(max-width:415px){.empuje{margin-left:140px}} @media(max-width:405px){.empuje{margin-left:13px}}  @media(max-width:395px){.empuje{margin-left:120px}}
     @media(max-width:385px){.empuje{margin-left:110px}} @media(max-width:375px){.empuje{margin-left:100px}} @media(max-width:415px){.empuje{margin-left:90px}} 
-    @media(max-width:405px){.empuje{margin-left:80px}} @media(max-width:395px){.empuje{margin-left:70px}} @media(max-width:385px){.empuje{margin-left:60px}} 
-    @media(max-width:375px){.empuje{margin-left:50px}} @media(max-width:365px){.empuje{margin-left:40px}} @media(max-width:355px){.empuje{margin-left:30px}}
-    @media(max-width:345px){.empuje{margin-left:20px}} @media(max-width:335px){.empuje{margin-left:10px}} @media(max-width:325px){.empuje{margin-left:0px}}
+    @media(max-width:405px){.empuje{margin-left:80px}}  @media(max-width:395px){.empuje{margin-left:70px}}  @media(max-width:385px){.empuje{margin-left:60px}} 
+    @media(max-width:375px){.empuje{margin-left:50px}}  @media(max-width:365px){.empuje{margin-left:40px}}  @media(max-width:355px){.empuje{margin-left:30px}}
+    @media(max-width:345px){.empuje{margin-left:20px}}  @media(max-width:335px){.empuje{margin-left:10px}}  @media(max-width:325px){.empuje{margin-left:0px}}
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
