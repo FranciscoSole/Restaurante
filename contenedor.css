@@ -149,12 +149,12 @@ footer > p{color: aliceblue; text-align: center;}
 /*margin-left:auto; margin-right: auto;*/
 
 /* -------------------------------------------------------------------------------- Responsive ------------------------------------------------------------------------------- */
-@media(max-width: 1920px){
+@media(max-width: 2561px){
     .fondo, .img-carousel{display: block; width: 100%; height: 100vh;}
     .fondo-480, .fondo-768, .fondo-992, .fondo-1200{display: none;}
 
-    
-    .nav-item{margin-bottom: 7px}
+    .navbar{padding: 7px;}
+    .nav-item{margin-bottom: 7px;}
 /*[Inicio]
 /*\-> Configuración:                                                                                                                                                           */
     .titulo{font-size: 350%; color: #cda45e; text-shadow: 3px 3px #000!important}
@@ -183,7 +183,7 @@ footer > p{color: aliceblue; text-align: center;}
     .pys-ingredientes{top: 69%;}
 /*[Nosotros]
 /*\-> Configuración:                                                                                                                                                           */
-    .section-title-pq, .section-title-fg, .section-title-te{color: #cda45e; font-size: 240%!important}
+    .section-title-pq, .section-title-fg, .section-title-te{color: #cda45e; font-size: 270%!important}
     .section-title-pq, .section-title-fg, .section-title-te, .texto1, .texto2, .texto3{text-shadow: 3px 3px #000!important;}
     .texto1, .texto2, .texto3{left: 3%; white-space: pre-line; font-size: 160%; padding-left: 5%;}
     .texto1{padding-right: 69px;}
@@ -191,13 +191,13 @@ footer > p{color: aliceblue; text-align: center;}
     .texto3{padding-right: 100px;}
 /*\-> Posiciones:                                                                                                                                                              */
     .section-title-pq, .section-title-te{left: 58%;}
-    .section-title-pq{top: 32%;}
-    .section-title-fg{left: 8%; top: 124%;}
+    .section-title-pq{top: 30%;}
+    .section-title-fg{left: 8%; top: 126%;}
     .section-title-te{top: 207%;}
     .texto1, .texto3{left: 53%;}
-    .texto1{top: 42%;}
+    .texto1{top: 38%;}
     .texto2{top: 134%;}
-    .texto3{top: 217%;}
+    .texto3{top: 215%;}
 }
 
 @media(max-width: 1199px){
