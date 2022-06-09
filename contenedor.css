@@ -61,19 +61,7 @@ footer > p{color: aliceblue; text-align: center;}
   }
 /* ---------------------------------------------------------------------------------- Menu ----------------------------------------------------------------------------------- */
 /* Titulo */
-.section-title{
-    top: 8%;
-    left: 30.7%; 
-    margin-top: 5%; 
-    position: absolute;
-}
-
-.section-title > p{
-    color: #cda45e; 
-    font-size: 2.3em; 
-    font-weight: 300;
-    margin-left: 114.8%;
-}
+.section-title{position: absolute; color: #cda45e; }
 
 /* General */
 .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{
@@ -122,13 +110,7 @@ footer > p{color: aliceblue; text-align: center;}
 /* --------------------------------------------------------------------------- ¿Por qué nosotros? ---------------------------------------------------------------------------- */
 /* General */
 
-.section-title-pq, .section-title-fg, .section-title-te{position: absolute;}
-.section-title-pq > p, .section-title-fg > p, .section-title-te > p{
-    color: #cda45e; 
-    font-size: 2.3em; 
-    font-weight: 100; 
-    width: 550px;
-}
+.section-title-pq, .section-title-fg, .section-title-te{position: absolute; color: #cda45e; font-weight: 100;}
 .texto1, .texto2, .texto3{
     color: white; 
     font-size: 1.2em; 
@@ -149,85 +131,131 @@ footer > p{color: aliceblue; text-align: center;}
 /*margin-left:auto; margin-right: auto;*/
 
 /* -------------------------------------------------------------------------------- Responsive ------------------------------------------------------------------------------- */
-@media(max-width: 2561px){
+@media(max-width: 1440px){
     .fondo, .img-carousel{display: block; width: 100%; height: 100vh;}
     .fondo-480, .fondo-768, .fondo-992, .fondo-1200{display: none;}
-
-    .navbar{padding: 7px;}
-    .nav-item{margin-bottom: 7px;}
+    .vector{width:70px; height:27px;}
 /*[Inicio]
 /*\-> Configuración:                                                                                                                                                           */
-    .titulo{font-size: 350%; color: #cda45e; text-shadow: 3px 3px #000!important}
-    .subtitulo{font-size: 220%; padding-right: 620px;}
+    .titulo{font-size: 300%; color: #cda45e}
+    .subtitulo{font-size: 150%; padding-right: 500px;}
     .nav-link{margin-top: 9px!important;}
 /*\-> Posiciones:                                                                                                                                                              */
-    .titulo{top: 42.5%; left: 34.7%;}
-    .subtitulo{top: 52.5%; left: 20%;}
+    .titulo{top: 42.5%; left: 33.5%;}
+    .subtitulo{top: 53%; left: 23%;}
 /*[Menu]
 /*\-> Configuración:                                                                                                                                                           */
-    .section-title{font-size: 153%; white-space: nowrap;}
     .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre, 
     .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{white-space: pre-line; text-shadow: 2px 2px #000!important; padding-right: 1px;}
-    .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{font-size: 190%; color: #cda45e;}
-    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 160%; color:white; left: 53.5%; margin-left: 1px; padding-right: 70px;}
+    .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{font-size: 140%; color: #cda45e;}
+    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 110%; color:white; left: 54%; margin-left: 1px; padding-right: 70px;}
     .precio{display: none;}
+    .section-title{white-space: nowrap; font-size: 250%;}
 /*\-> Posiciones:                                                                                                                                                              */
-    .section-title{top: 0%; left: 16%}
-    .muzarella-nombre{top: 21%; left: 67%;}
-    .verd-nombre{top: 35%; left: 66.5%;}
-    .fgzt-nombre{top: 49%; left: 64%;}
-    .pys-nombre{top: 64%; left: 62.7%;}
-    .muzarella-ingredientes{top: 26%;}
-    .verd-ingredientes{top: 40%;}
-    .fgzt-ingredientes{top: 54%;}
-    .pys-ingredientes{top: 69%;}
+    .section-title{top: 11%; left: 57%}
+    .muzarella-nombre{top: 23%; left: 67%;}
+    .verd-nombre{top: 39.5%; left: 66.5%;}
+    .fgzt-nombre{top: 53%; left: 63.5%;}
+    .pys-nombre{top: 70%; left: 62%;}
+    .muzarella-ingredientes{top: 28.5%;}
+    .verd-ingredientes{top: 46%;}
+    .fgzt-ingredientes{top: 59%;}
+    .pys-ingredientes{top: 76%;}
 /*[Nosotros]
 /*\-> Configuración:                                                                                                                                                           */
-    .section-title-pq, .section-title-fg, .section-title-te{color: #cda45e; font-size: 270%!important}
-    .section-title-pq, .section-title-fg, .section-title-te, .texto1, .texto2, .texto3{text-shadow: 3px 3px #000!important;}
-    .texto1, .texto2, .texto3{left: 3%; white-space: pre-line; font-size: 160%; padding-left: 5%;}
-    .texto1{padding-right: 69px;}
-    .texto2{padding-right: 1000px;}
-    .texto3{padding-right: 100px;}
+    .section-title-pq, .section-title-fg, .section-title-te{color: #cda45e; font-size: 200%!important}
+    .section-title-pq, .section-title-fg, .section-title-te, .texto1, .texto2, .texto3{text-shadow: 2px 2px #000!important;}
+    .texto1, .texto2, .texto3{left: 3%; white-space: pre-line; font-size: 120%; padding-left: 5%;}
+    .texto1{padding-right: 40px;}
+    .texto2{padding-right: 750px;}
+    .texto3{padding-right: 80px;}
 /*\-> Posiciones:                                                                                                                                                              */
     .section-title-pq, .section-title-te{left: 58%;}
-    .section-title-pq{top: 30%;}
-    .section-title-fg{left: 8%; top: 126%;}
+    .section-title-pq{top: 28%;}
+    .section-title-fg{left: 8%; top: 124%;}
     .section-title-te{top: 207%;}
     .texto1, .texto3{left: 53%;}
     .texto1{top: 38%;}
     .texto2{top: 134%;}
-    .texto3{top: 215%;}
-}
+    .texto3{top: 217%;}
+
+    @media(max-width: 1430px){
+        @media(max-width: 1420px){
+            @media(max-width: 1410px){
+                .section-title{left: 56.5%;} 
+                @media(max-width: 1400px){
+                    .texto2{padding-right: 740px;}
+                    @media(max-width: 1390px){
+                        .texto2{padding-right: 730px;}
+                        @media(max-width: 1380px){
+                            .texto2{padding-right: 720px;}
+                            @media(max-width: 1370px){
+                                .texto2{padding-right: 710px;}
+                                @media(max-width: 1360px){
+                                    .texto2{padding-right: 700px;}
+                                    @media(max-width: 1350px){
+                                        .texto2{padding-right: 690px;}
+                                        @media(max-width: 1340px){
+                                            .texto2{padding-right: 680px;}
+                                            @media(max-width: 1330px){
+                                                .texto2{padding-right: 670px;}
+                                                .section-title{left: 56%;} 
+                                                @media(max-width: 1320px){
+                                                    .texto2{padding-right: 660px;}
+                                                    .section-title{left: 55.5%;} 
+                                                    @media(max-width: 1310px){
+                                                        .texto2{padding-right: 650px;}
+                                                        .section-title{left: 54%;} 
+                                                        @media(max-width: 1300px){
+                                                            @media(max-width: 1290px){
+                                                                .texto2{padding-right: 640px;}
+                                                                @media(max-width: 1280px){
+                                                                    .texto2{padding-right: 630px;}
+                                                                    @media(max-width: 1270px){
+                                                                        .texto2{padding-right: 620px;}
+                                                                        @media(max-width: 1260px){
+                                                                            @media(max-width: 1250px){
+                                                                                .texto2{padding-right: 610px;}
+                                                                                @media(max-width: 1240px){
+                                                                                    .texto2{padding-right: 600px;}
+                                                                                    @media(max-width: 1230px){
+                                                                                        .texto2{padding-right: 590px;}
+                                                                                        @media(max-width: 1220px){
+                                                                                            .texto2{padding-right: 580px;}
+                                                                                            @media(max-width: 1210px){
+                                                                                                .texto2{padding-right: 570px;}
+                                                                                                @media(max-width: 1200px){ 
+                                                                                                    .section-title{left: 52.5%;}                                                                                 
+}   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }
 
 @media(max-width: 1199px){
     .fondo-1200, .img-carousel{display: block; width: 100%; height: 100vh;}
     .fondo-480, .fondo-768, .fondo-992, .fondo{display: none;}
-
+    .vector{width:70px; height:27px;}
 /*[Inicio]
 /*\-> Configuración:                                                                                                                                                           */
-    .titulo{font-size: 200%; color: #cda45e}
+    .titulo{font-size: 240%; color: #cda45e}
     .subtitulo{font-size: 140%; padding-right: 390px;}
     .nav-link{margin-top: 9px!important;}
 /*\-> Posiciones:                                                                                                                                                              */
-    .titulo{top: 42.5%; left: 35.7%;}
+    .titulo{top: 42.5%; left: 34%;}
     .subtitulo{top: 52.5%; left: 20%;}
 /*[Menu]
 /*\-> Configuración:                                                                                                                                                           */
     .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre, 
     .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{white-space: pre-line; text-shadow: 2px 2px #000!important; padding-right: 1px;}
     .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{font-size: 120%; color: #cda45e;}
-    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 100%; color:white; left: 54%; margin-left: 1px; padding-right: 38px;}
+    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 108%; color:white; left: 54%; margin-left: 1px; padding-right: 38px;}
     .precio{display: none;}
-    .section-title{white-space: nowrap; font-size: 100%;}
+    .section-title{white-space: nowrap; font-size: 230%;}
 /*\-> Posiciones:                                                                                                                                                              */
-    .section-title{top: 0%; left: 14%}
-    .muzarella-nombre{top: 25%; left: 70%;}
-    .verd-nombre{top: 41%; left: 69.3%;}
+    .section-title{top: 11%; left: 56.5%}
+    .muzarella-nombre{top: 21.5%; left: 70%;}
+    .verd-nombre{top: 39%; left: 69.3%;}
     .fgzt-nombre{top: 56%; left: 66.5%;}
     .pys-nombre{top: 74%; left: 65.2%;}
-    .muzarella-ingredientes{top: 31.5%;}
-    .verd-ingredientes{top: 47%;}
+    .muzarella-ingredientes{top: 28%;}
+    .verd-ingredientes{top: 45.5%;}
     .fgzt-ingredientes{top: 62.5%;}
     .pys-ingredientes{top: 80%;}
 /*[Nosotros]
@@ -253,13 +281,13 @@ footer > p{color: aliceblue; text-align: center;}
     \-> Configuración:                                                                                                                                                         */
         .subtitulo{font-size: 138%;}
 /*  \-> Posiciones:                                                                                                                                                            */
-        .titulo{left: 35.8%;}
+        .titulo{left: 33.85%;}
         .subtitulo{left: 20.3%}
 /*  [Menu]
     \-> Configuración:                                                                                                                                                         */
         .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 36px;}
 /*  \-> Posiciones:                                                                                                                                                            */
-        .section-title{top: 0%; left: 13.5%}
+        .section-title{left: 56.2%}
 /*  [Nosotros]
     \-> Configuración:                                                                                                                                                         */
         .texto1{padding-right: 75px;}
@@ -269,13 +297,13 @@ footer > p{color: aliceblue; text-align: center;}
         \-> Configuración:                                                                                                                                                     */
             .subtitulo{font-size: 136%;}
 /*      \-> Posiciones:                                                                                                                                                        */
-            .titulo{left: 35.65%;}
+            .titulo{left: 33.7%;}
             .subtitulo{left: 20.7%}
 /*      [Menu]
         \-> Configuración:                                                                                                                                                         */
             .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 34px;}
 /*      \-> Posiciones:                                                                                                                                                             */
-            .section-title{left: 13%}
+            .section-title{left: 55.9%}
 /*      [Nosotros]
         \-> Configuración:                                                                                                                                                     */
             .texto1{padding-right: 75px;}
@@ -285,13 +313,13 @@ footer > p{color: aliceblue; text-align: center;}
             \-> Configuración:                                                                                                                                                 */
                 .subtitulo{font-size: 134%;}
 /*          \-> Posiciones:                                                                                                                                                    */
-                .titulo{left: 35.5%;}
+                .titulo{left: 33.55%;}
                 .subtitulo{left: 21.1%}
 /*          [Menu]
             \-> Configuración:                                                                                                                                                         */
                 .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 32px;}
 /*             \-> Posiciones:                                                                                                                                                             */
-                .section-title{left: 12.5%}
+                .section-title{left: 55.6%}
 /*          [Nosotros]
             \-> Configuración:                                                                                                                                                 */
                 .texto1{padding-right: 70px;}
@@ -302,19 +330,17 @@ footer > p{color: aliceblue; text-align: center;}
                 \-> Configuración:                                                                                                                                             */
                     .subtitulo{font-size: 132%;}
 /*              \-> Posiciones:                                                                                                                                                */
-                    .titulo{left: 35.35%;}
+                    .titulo{left: 33.4%;}
                     .subtitulo{left: 21.5%}
 /*              [Menu]
                 \-> Configuración:                                                                                                                                                         */
                     .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 30px;}
 /*              \-> Posiciones:                                                                                                                                                             */
-                    .section-title{left: 12%}
-                    .muzarella-nombre{top: 25%; left: 70%;}
-                    .verd-nombre{top: 41%; left: 69.3%;}
+                    .section-title{left: 55.3%}
+                    .muzarella-nombre{left: 70%;}
+                    .verd-nombre{left: 69.3%;}
                     .fgzt-nombre{left: 66.5%;}
                     .pys-nombre{left: 65.2%;}
-                    .muzarella-ingredientes{top: 31.5%;}
-                    .verd-ingredientes{top: 47%;}
 /*              [Nosotros]
                 \-> Configuración:                                                                                                                                             */
                     .texto1{padding-right: 65px;}
@@ -325,13 +351,13 @@ footer > p{color: aliceblue; text-align: center;}
                     \-> Configuración:                                                                                                                                         */
                         .subtitulo{font-size: 130%;}
 /*                  \-> Posiciones:                                                                                                                                            */
-                        .titulo{left: 35.20%;}
+                        .titulo{left: 33.25%;}
                         .subtitulo{left: 21.9%}
 /*                  [Menu]
                     \-> Configuración:                                                                                                                                                         */
                         .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 28px;}
 /*                  \-> Posiciones:                                                                                                                                                           */
-                        .section-title{left: 11.5%}
+                        .section-title{left: 55%}
 /*                  [Nosotros]
                     \-> Configuración:                                                                                                                                         */
                         .texto2{padding-right: 570px;}
@@ -341,13 +367,13 @@ footer > p{color: aliceblue; text-align: center;}
                         \-> Configuración:                                                                                                                                     */
                             .subtitulo{font-size: 128%;}
 /*                      \-> Posiciones:                                                                                                                                        */
-                            .titulo{left: 35.05%;}
+                            .titulo{left: 33.1%;}
                             .subtitulo{left: 22.3%}
 /*                      [Menu]
                         \-> Configuración:                                                                                                                                                         */
                             .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 26px;}
 /*                      \-> Posiciones:                                                                                                                                        */
-                            .section-title{left: 11%}
+                            .section-title{left: 54.7%}
 /*                      [Nosotros]
                         \-> Configuración:                                                                                                                                     */
                             .texto1{padding-right: 60px;}
@@ -358,13 +384,13 @@ footer > p{color: aliceblue; text-align: center;}
                             \-> Configuración:                                                                                                                                 */
                                 .subtitulo{font-size: 126%;}
 /*                          \-> Posiciones:                                                                                                                                    */
-                                .titulo{left: 34.9%;}
+                                .titulo{left: 32.95%;}
                                 .subtitulo{left: 22.7%}
 /*                          [Menu]
                             \-> Configuración:                                                                                                                                                         */
                                 .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 24px;}
 /*                          \-> Posiciones:                                                                                                                                                           */
-                                .section-title{left: 10.5%}
+                                .section-title{left: 54.4%}
 /*                          [Nosotros]
                             \-> Configuración:                                                                                                                                 */
                                 .texto1{padding-right: 55px;}
@@ -375,18 +401,17 @@ footer > p{color: aliceblue; text-align: center;}
                                 \-> Configuración:                                                                                                                             */
                                     .subtitulo{font-size: 124%;}
 /*                              \-> Posiciones:                                                                                                                                */
-                                    .titulo{left: 34.75%;}
+                                    .titulo{left: 32.8%;}
                                     .subtitulo{left: 23.1%}
 /*                              [Menu]
                                 \-> Configuración:                                                                                                                                                         */
                                     .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 22px;}
 /*                              \-> Posiciones:                                                                                                                                                            */
-                                    .section-title{left: 10%}
+                                    .section-title{left: 54.1%}
                                     .muzarella-nombre{left: 70%;}
                                     .verd-nombre{left: 69.5%;}
                                     .fgzt-nombre{left: 66%;}
                                     .pys-nombre{left: 64.7%;}
-                                    .muzarella-ingredientes{top: 31%;}
 /*                              [Nosotros]
                                 \-> Configuración:                                                                                                                             */
                                     .texto1{padding-right: 50px;}
@@ -397,17 +422,16 @@ footer > p{color: aliceblue; text-align: center;}
                                     \-> Configuración:                                                                                                                         */
                                         .subtitulo{font-size: 122%;}
 /*                                  \-> Posiciones:                                                                                                                            */
-                                        .titulo{left: 34.6%;}
+                                        .titulo{left: 32.65%;}
 /*                                  [Menu]
                                     \-> Configuración:                                                                                                                                                         */
                                         .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 20px;}
 /*                                  \-> Posiciones:                                                                                                                                                            */
-                                        .section-title{left: 9.5%}
-                                        .muzarella-nombre{top: 24.5%; left: 69.5%;}
-                                        .verd-nombre{top: 40.5%; left: 69%;}
+                                        .section-title{left: 53.8%}
+                                        .muzarella-nombre{left: 69.5%;}
+                                        .verd-nombre{left: 69%;}
                                         .fgzt-nombre{left: 65.5%;}
                                         .pys-nombre{left: 64.2%;}
-                                        .muzarella-ingredientes{top: 30.5%;}
 /*                                  [Nosotros]
                                     \-> Configuración:                                                                                                                         */
                                         .texto1{padding-right: 46px;}
@@ -418,18 +442,17 @@ footer > p{color: aliceblue; text-align: center;}
                                         \-> Configuración:                                                                                                                     */
                                             .subtitulo{font-size: 120%;}
 /*                                      \-> Posiciones:                                                                                                                        */
-                                            .titulo{left: 34.45%;}
+                                            .titulo{left: 32.5%;}
                                             .subtitulo{left: 23.9%}
 /*                                      [Menu]
                                         \-> Configuración:                                                                                                                                                         */
                                             .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 16px;}
 /*                                      \-> Posiciones:                                                                                                                                                            */
-                                            .section-title{left: 9%}
-                                            .muzarella-nombre{top: 24%; left: 69%;}
+                                            .section-title{left: 53.5%}
+                                            .muzarella-nombre{left: 69%;}
                                             .verd-nombre{left: 68.5%;}
                                             .fgzt-nombre{left: 65%;}
                                             .pys-nombre{left: 63.7%;}
-                                            .muzarella-ingredientes{top: 30%;}
 /*                                      [Nosotros]
                                         \-> Configuración:                                                                                                                     */
                                             .texto1{padding-right: 42px;}
@@ -440,18 +463,17 @@ footer > p{color: aliceblue; text-align: center;}
                                             \-> Configuración:                                                                                                                 */
                                                 .subtitulo{font-size: 120%;}
 /*                                          \-> Posiciones:                                                                                                                    */
-                                                .titulo{left: 34.3%;}
+                                                .titulo{left: 32.35%;}
                                                 .subtitulo{left: 24.3%}
 /*                                          [Menu]
                                             \-> Configuración:                                                                                                                                                         */
                                                 .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 12px;}
 /*                                          \-> Posiciones:                                                                                                                                                            */
-                                                .section-title{left: 8.5%}
-                                                .muzarella-nombre{top: 23.5%; left: 68.5%;}
+                                                .section-title{left: 53.2%}
+                                                .muzarella-nombre{left: 68.5%;}
                                                 .verd-nombre{left: 68%;}
                                                 .fgzt-nombre{left: 64.5%;}
                                                 .pys-nombre{left: 63.2%;}
-                                                .muzarella-ingredientes{top: 29.5%;}
 /*                                          [Nosotros]
                                             \-> Configuración:                                                                                                                 */
                                                 .texto1{padding-right: 38px;}
@@ -462,19 +484,17 @@ footer > p{color: aliceblue; text-align: center;}
                                                 \-> Configuración:                                                                                                             */
                                                     .subtitulo{font-size: 118%;}
 /*                                              \-> Posiciones:                                                                                                                */
-                                                    .titulo{left: 34.15%;}
+                                                    .titulo{left: 32.2%;}
                                                     .subtitulo{left: 24.7%}
 /*                                              [Menu]
                                                 \-> Configuración:                                                                                                                                                         */
                                                     .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 12px;}
 /*                                              \-> Posiciones:                                                                                                                                                            */
-                                                    .section-title{left: 8%}
-                                                    .muzarella-nombre{top: 23%; left: 68%;}
-                                                    .verd-nombre{top: 40%; left: 67.5%;}
+                                                    .section-title{left: 52.9%}
+                                                    .muzarella-nombre{left: 68%;}
+                                                    .verd-nombre{left: 67.5%;}
                                                     .fgzt-nombre{left: 64.3%;}
                                                     .pys-nombre{left: 62.7%;}
-                                                    .muzarella-ingredientes{top: 29%;}
-                                                    .verd-ingredientes{top: 46.5%;}
 /*                                              [Nosotros]
                                                 \-> Configuración:                                                                                                             */
                                                     .texto1{padding-right: 34px;}
@@ -485,20 +505,17 @@ footer > p{color: aliceblue; text-align: center;}
                                                     \-> Configuración:                                                                                                         */
                                                         .subtitulo{font-size: 116%;}
 /*                                                  \-> Posiciones:                                                                                                            */
-                                                        .titulo{left: 34%;}
+                                                        .titulo{left: 32.05%;}
                                                         .subtitulo{left: 25.1%;}
 /*                                                  [Menu]
                                                     \-> Configuración:                                                                                                         */
-                                                        .section-title{font-size: 95%;}
                                                         .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 10px;}
 /*                                                  \-> Posiciones:                                                                                                                                                            */
-                                                        .section-title{top: 0.5%; left: 11.5%;}
-                                                        .muzarella-nombre{top: 22.5%; left: 67.5%;}
-                                                        .verd-nombre{top: 39.5%; left: 67%;}
+                                                        .section-title{left: 52.6%;}
+                                                        .muzarella-nombre{left: 67.5%;}
+                                                        .verd-nombre{left: 67%;}
                                                         .fgzt-nombre{left: 63.8%;}
                                                         .pys-nombre{left: 62.2%;}
-                                                        .muzarella-ingredientes{top: 28.5%;}
-                                                        .verd-ingredientes{top: 46%;}
 /*                                                  [Nosotros]
                                                     \-> Configuración:                                                                                                         */
                                                         .texto1{padding-right: 30px;}
@@ -509,13 +526,11 @@ footer > p{color: aliceblue; text-align: center;}
                                                         \-> Configuración:                                                                                                     */
                                                             .subtitulo{font-size: 114%;}
 /*                                                      \-> Posiciones:                                                                                                        */
-                                                            .titulo{left: 33.85%;}
+                                                            .titulo{left: 31.9%;}
                                                             .subtitulo{left: 25.5%}
 /*                                                      [Menu]
                                                         \-> Configuración:                                                                                                         */
-                                                            .section-title{font-size: 90%;}
 /*                                                      \-> Posiciones:                                                                                                                                                             */
-                                                            .section-title{top: 1%; left: 13%;}
                                                             .muzarella-nombre{left: 67%;}
                                                             .verd-nombre{left: 66.5%;}
                                                             .fgzt-nombre{left: 63.3%;}
@@ -530,11 +545,10 @@ footer > p{color: aliceblue; text-align: center;}
                                                             \-> Configuración:                                                                                                 */
                                                                 .subtitulo{font-size: 112%; padding-right: 385px;}
 /*                                                          \-> Posiciones:                                                                                                    */
-                                                                .titulo{left: 33.7%;}
+                                                                .titulo{left: 31.75%;}
                                                                 .subtitulo{left: 25.9%;}
 /*                                                          [Menu]
                                                             \-> Posiciones:                                                                                                                                                            */
-                                                                .section-title{left: 12%}
                                                                 .muzarella-nombre{left: 67.5%;}
                                                                 .verd-nombre{left: 66.8%;}
                                                                 .fgzt-nombre{left: 64%;}
@@ -549,11 +563,10 @@ footer > p{color: aliceblue; text-align: center;}
                                                                 \-> Configuración:                                                                                             */
                                                                     .subtitulo{font-size: 112%; padding-right: 370px;}
 /*                                                              \-> Posiciones:                                                                                                */
-                                                                    .titulo{left: 34.1%;}
+                                                                    .titulo{left: 31.5%;}
                                                                     .subtitulo{left: 23%}
 /*                                                              [Menu]
                                                                 \-> Posiciones:                                                                                                                                                            */
-                                                                    .section-title{left: 10.3%}
                                                                     .muzarella-nombre{left: 67%;}
                                                                     .verd-nombre{left: 66.3%;}
                                                                     .fgzt-nombre{left: 63.5%;}
@@ -568,17 +581,14 @@ footer > p{color: aliceblue; text-align: center;}
                                                                     \-> Configuración:                                                                                         */
                                                                         .subtitulo{font-size: 110%; padding-right: 350px;}
 /*                                                                  \-> Posiciones:                                                                                            */
-                                                                        .titulo{left: 33.9%;}
+                                                                        .titulo{left: 31.35%;}
                                                                         .subtitulo{left: 22%}
 /*                                                                  [Menu]
                                                                     \-> Posiciones:                                                                                                                                                            */
-                                                                        .section-title{left: 9.8%}
-                                                                        .muzarella-nombre{top: 21.5%; left: 66.5%;}
-                                                                        .verd-nombre{top: 39%; left: 65.8%;}
+                                                                        .muzarella-nombre{left: 66.5%;}
+                                                                        .verd-nombre{left: 65.8%;}
                                                                         .fgzt-nombre{left: 63%;}
                                                                         .pys-nombre{left: 61.7%;}
-                                                                        .muzarella-ingredientes{top: 28%;}
-                                                                        .verd-ingredientes{top: 45.5%;}
 /*                                                                  [Nosotros]
                                                                     \-> Configuración:                                                                                         */
                                                                         .texto1{padding-right: 15px;}
@@ -589,11 +599,10 @@ footer > p{color: aliceblue; text-align: center;}
                                                                         \-> Configuración:                                                                                     */
                                                                             .subtitulo{font-size: 108%;}
 /*                                                                      \-> Posiciones:                                                                                        */
-                                                                            .titulo{left: 33.7%;}
+                                                                            .titulo{left: 31.2%;}
                                                                             .subtitulo{left: 23%}
 /*                                                                      [Menu]
                                                                         \-> Posiciones:                                                                                                                                                            */
-                                                                            .section-title{left: 9.3%}
                                                                             .muzarella-nombre{top: 21%; left: 67%;}
                                                                             .verd-nombre{top: 38.5%; left: 66.4%;}
                                                                             .fgzt-nombre{left: 62.5%;}
@@ -610,11 +619,10 @@ footer > p{color: aliceblue; text-align: center;}
                                                                             \-> Configuración:                                                                                 */
                                                                                 .subtitulo{font-size: 106%;}
 /*                                                                          \-> Posiciones:                                                                                    */
-                                                                                .titulo{left: 33.5%;}
+                                                                                .titulo{left: 31.05%;}
                                                                                 .subtitulo{left: 24%}
 /*                                                                          [Menu]
                                                                             \-> Posiciones:                                                                                                                                                            */
-                                                                                .section-title{left: 8.8%}
                                                                                 .muzarella-nombre{top: 20.5%; left: 66.5%;}
                                                                                 .verd-nombre{top: 38%; left: 65.9%;}
                                                                                 .fgzt-nombre{left: 62%;}
@@ -631,11 +639,10 @@ footer > p{color: aliceblue; text-align: center;}
                                                                                 \-> Configuración:                                                                             */
                                                                                     .subtitulo{font-size: 104%; padding-right: 365px;}
 /*                                                                              \-> Posiciones:                                                                                */
-                                                                                    .titulo{left: 33.25%;}
+                                                                                    .titulo{left: 30.9%;}
                                                                                     .subtitulo{left: 25%}
 /*                                                                              [Menu]
                                                                                 \-> Posiciones:                                                                                                                                                            */
-                                                                                    .section-title{left: 8.3%}
                                                                                     .muzarella-nombre{top: 20%; left: 66%;}
                                                                                     .verd-nombre{top: 37.5%; left: 65.4%;}
                                                                                     .fgzt-nombre{left: 61.5%;}
@@ -655,22 +662,22 @@ footer > p{color: aliceblue; text-align: center;}
     .fondo-480, .fondo-768, .fondo-1200, .fondo{display: none;}
 /*[Inicio]
 /*\-> Configuración:                                                                                                                                                           */
-    .titulo{font-size: 200%; color: #cda45e}
+    .titulo{font-size: 230%; color: #cda45e}
     .subtitulo{font-size: 100%; padding-right: 372px;}
     .nav-link{margin-top: 9px!important;}
 /*\-> Posiciones:                                                                                                                                                              */
-    .titulo{top: 43%; left: 33%;}
+    .titulo{top: 43%; left: 30.75%;}
     .subtitulo{top: 53%; left: 26%;}
 /*[Menu]
 /*\-> Configuración:                                                                                                                                                           */
-    .section-title{white-space: nowrap; font-size: 90%;}
+    .section-title{white-space: nowrap; font-size: 220%;}
     .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre, 
     .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{white-space: pre-line; text-shadow: 2px 2px #000!important; padding-right: 1px;}
     .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{font-size: 120%; color: #cda45e;}
-    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 100%; color:white; left: 53.5%; margin-left: 1px; padding-right: 20px;}
+    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 108%; color:white; left: 53.5%; margin-left: 1px; padding-right: 20px;}
     .precio{display: none;}
 /*\-> Posiciones:                                                                                                                                                              */
-    .section-title{top: 1%; left: 7.8%}
+    .section-title{top: 11%; left: 52.5%}
     .muzarella-nombre{top: 20%; left: 66.7%;}
     .verd-nombre{top: 37.5%; left: 65.7%;}
     .fgzt-nombre{top: 56%; left: 61.5%;}
@@ -700,12 +707,12 @@ footer > p{color: aliceblue; text-align: center;}
     \-> Configuración:                                                                                                                                                         */
         .subtitulo{padding-right: 365px;}
 /*  \-> Posiciones:                                                                                                                                                            */
-        .titulo{left: 32.97%;}
+        .titulo{left: 30.5%;}
         .subtitulo{left: 25.7%;}
 /*  [Menu]
     \-> Configuración:                                                                                                                                                         */
         .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{padding-right: 15px;}
-        .section-title{top: -0.5%; left: 6.8%;}
+        .section-title{top: 10%;}
 /*  [Nosotros]
     \-> Configuración:                                                                                                                                                         */
         .texto1, .texto3{padding-right: 25px;}
@@ -722,12 +729,12 @@ footer > p{color: aliceblue; text-align: center;}
         \-> Configuración:                                                                                                                                                     */
             .subtitulo{padding-right: 359px;}
 /*      \-> Posiciones:                                                                                                                                                        */
-            .titulo{left: 32.94%;}
+            .titulo{left: 30.35%;}
             .subtitulo{left: 25.4%;}
 /*      [Menu]
         \-> Configuración:                                                                                                                                                     */
             .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{padding-right: 10px;}
-            .section-title{top: -1%; left: 5.8%;}
+            .section-title{top: 9%;}
 /*      [Nosotros]
         \-> Configuración:                                                                                                                                                     */
             .texto1, .texto3{padding-right: 20px;}
@@ -744,11 +751,11 @@ footer > p{color: aliceblue; text-align: center;}
             \-> Configuración:                                                                                                                                                 */
                 .subtitulo{padding-right: 352px;}
 /*          \-> Posiciones:                                                                                                                                                    */
-                .titulo{left: 32.91%;}
+                .titulo{left: 30.2%;}
                 .subtitulo{left: 25.1%;}
 /*          [Menu]
             \-> Posiciones:                                                                                                                                                    */
-                .section-title{top: -1.5%; left: 4.8%;}
+                .section-title{top: 8%;}
 /*          [Nosotros]
             \-> Configuración:                                                                                                                                                 */
                 .texto1, .texto3{padding-right: 40px;}
@@ -765,11 +772,11 @@ footer > p{color: aliceblue; text-align: center;}
                 \-> Configuración:                                                                                                                                             */
                     .subtitulo{padding-right: 345px;}
 /*              \-> Posiciones:                                                                                                                                                */
-                    .titulo{left: 32.88%;}
+                    .titulo{left: 30.5%;}
                     .subtitulo{left: 24.8%;}
 /*              [Menu]
                 \-> Posiciones:                                                                                                                                                */
-                    .section-title{top: -2%; left: 3.8%;}
+                    .section-title{top: 7%;}
                     .muzarella-nombre{top: 18.5%; left: 66.2%;}
                     .verd-nombre{top: 36%; left: 65.2%;}
                     .fgzt-nombre{top: 54.5%; left: 61%;}
@@ -790,13 +797,13 @@ footer > p{color: aliceblue; text-align: center;}
                     \-> Configuración:                                                                                                                                         */
                         .subtitulo{padding-right: 338px;}
 /*                  \-> Posiciones:                                                                                                                                            */
-                        .titulo{left: 32.85%;}
+                        .titulo{left: 29.9%;}
                         .subtitulo{left: 24.5%;}
 /*                  [Menu]
                     \-> Configuración:                                                                                                                                         */
                         .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 52.5%; padding-right: 15px;}
 /*                  \-> Posiciones:                                                                                                                                            */
-                        .section-title{top: -2.5%; left: 2.8%;}
+                        .section-title{top: 6%;}
                         .muzarella-nombre{top: 18.5%; left: 65.7%;}
                         .verd-nombre{top: 36%; left: 64.7%;}
                         .fgzt-nombre{top: 54.5%; left: 60.5%;}
@@ -804,7 +811,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                  [Nosotros]
                     \-> Configuración:                                                                                                                                         */
                         .texto1, .texto3{padding-right: 70px;}
-                        .texto2{padding-right: 415px;}
+                        .texto2{padding-right: 410px;}
 /*                  \-> Posiciones:                                                                                                                                            */
                         .section-title-pq, .section-title-te{left: 45%;}
                         .section-title-pq{top: 35%;}
@@ -817,13 +824,13 @@ footer > p{color: aliceblue; text-align: center;}
                         \-> Configuración:                                                                                                                                     */
                             .subtitulo{padding-right: 331px;}
 /*                      \-> Posiciones:                                                                                                                                        */
-                            .titulo{left: 32.82%;}
+                            .titulo{left: 29.75%;}
                             .subtitulo{left: 24.2%;}
 /*                      [Menu]
                         \-> Configuración:                                                                                                                                     */
                             .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 51.5%; padding-right: 20px;}
 /*                      \-> Posiciones:                                                                                                                                        */
-                            .section-title{top: -3%; left: 1.8%;}
+                            .section-title{top: 5%;}
                             .muzarella-nombre{left: 65.2%;}
                             .verd-nombre{left: 64.2%;}
                             .fgzt-nombre{left: 60%;}
@@ -831,7 +838,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                      [Nosotros]
                         \-> Configuración:                                                                                                                                     */
                             .texto1, .texto3{padding-right: 80px;}
-                            .texto2{padding-right: 410px;}
+                            .texto2{padding-right: 405px;}
 /*                      \-> Posiciones:                                                                                                                                        */
                             .section-title-pq, .section-title-te{left: 43%;}
                             .section-title-pq{top: 35%;}
@@ -844,13 +851,13 @@ footer > p{color: aliceblue; text-align: center;}
                             \-> Configuración:                                                                                                                                 */
                                 .subtitulo{padding-right: 326px;}
 /*                          \-> Posiciones:                                                                                                                                    */
-                                .titulo{left: 32.79%;}
+                                .titulo{left: 29.6%;}
                                 .subtitulo{left: 23.9%;}
 /*                          [Menu]
                             \-> Configuración:                                                                                                                                 */
                                 .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 50.5%; padding-right: 25px;}
 /*                          \-> Posiciones:                                                                                                                                    */
-                                .section-title{top: -3.5%; left: 0.8%;}
+                                .section-title{top: 4%;}
                                 .muzarella-nombre{left: 64.7%;}
                                 .verd-nombre{left: 63.7%;}
                                 .fgzt-nombre{left: 59.5%;}
@@ -858,7 +865,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                          [Nosotros]
                             \-> Configuración:                                                                                                                                 */
                                 .texto1, .texto3{padding-right: 100px;}
-                                .texto2{padding-right: 405px;}
+                                .texto2{padding-right: 390px;}
 /*                          \-> Posiciones:                                                                                                                                    */
                                 .section-title-pq, .section-title-te{left: 41%;}
                                 .section-title-pq{top: 35%;}
@@ -871,13 +878,13 @@ footer > p{color: aliceblue; text-align: center;}
                                 \-> Configuración:                                                                                                                             */
                                     .subtitulo{padding-right: 319px;}
 /*                              \-> Posiciones:                                                                                                                                */
-                                    .titulo{left: 32.76%;}
+                                    .titulo{left: 29.45%;}
                                     .subtitulo{left: 23.6%;}
 /*                              [Menu]
                                 \-> Configuración:                                                                                                                             */
                                     .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 49.5%; padding-right: 30px;}
 /*                              \-> Posiciones:                                                                                                                                */
-                                    .section-title{top: -4%; left: -1.8%;}
+                                    .section-title{top: 3%;}
                                     .muzarella-nombre{top: 18.5%; left: 64.2%;}
                                     .verd-nombre{top: 36%; left: 63.2%;}
                                     .fgzt-nombre{top: 54.5%; left: 59%;}
@@ -889,7 +896,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                              [Nosotros]
                                 \-> Configuración:                                                                                                                             */
                                     .texto1, .texto3{padding-right: 120px;}
-                                    .texto2{padding-right: 400px;}
+                                    .texto2{padding-right: 380px;}
 /*                              \-> Posiciones:                                                                                                                                */
                                     .section-title-pq, .section-title-te{left: 39%;}
                                     .section-title-pq{top: 35%;}
@@ -902,13 +909,13 @@ footer > p{color: aliceblue; text-align: center;}
                                     \-> Configuración:                                                                                                                         */
                                         .subtitulo{padding-right: 312px;}
 /*                                  \-> Posiciones:                                                                                                                            */
-                                        .titulo{left: 32.73%;}
+                                        .titulo{left: 29.3%;}
                                         .subtitulo{left: 23.3%;}
 /*                                  [Menu]
                                     \-> Configuración:                                                                                                                         */
                                         .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 48.5%; padding-right: 35px;}
 /*                                  \-> Posiciones:                                                                                                                            */
-                                        .section-title{top: -4.5%; left:-2.8%;}
+                                        .section-title{top: 2%;}
 /*                                  [Nosotros]
                                     \-> Configuración:                                                                                                                         */
                                         .texto1, .texto3{padding-right: 140px;}
@@ -925,13 +932,13 @@ footer > p{color: aliceblue; text-align: center;}
                                         \-> Configuración:                                                                                                                     */
                                             .subtitulo{padding-right: 305px;}
 /*                                      \-> Posiciones:                                                                                                                        */
-                                            .titulo{left: 32.7%;}
+                                            .titulo{left: 29.15%;}
                                             .subtitulo{left: 23%;}
 /*                                      [Menu]
                                         \-> Configuración:                                                                                                                     */
                                             .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 46.5%; padding-right: 40px;}
 /*                                      \-> Posiciones:                                                                                                                        */
-                                            .section-title{top:-5%; left:-3.8%;}
+                                            .section-title{top: 1%;}
 /*                                      [Nosotros]
                                         \-> Configuración:                                                                                                                     */
                                             .texto1, .texto3{padding-right: 160px;}
@@ -944,7 +951,7 @@ footer > p{color: aliceblue; text-align: center;}
                                             \-> Configuración:                                                                                                                 */
                                                 .subtitulo{padding-right: 298px;}
 /*                                          \-> Posiciones:                                                                                                                    */
-                                                .titulo{left: 32.4%;}
+                                                .titulo{left: 29%;}
                                                 .subtitulo{left: 22%;}
 /*                                          [Menu]
                                             \-> Configuración:                                                                                                                 */
@@ -953,7 +960,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                          [Nosotros]
                                             \-> Configuración:                                                                                                                 */
                                                 .texto1, .texto3{padding-right: 165px;}
-                                                .texto2{padding-right: 360px;}
+                                                .texto2{padding-right: 350px;}
 /*                                          \-> Posiciones:                                                                                                                    */
                                                 .section-title-pq, .section-title-te{left: 33%;}
                                                 .texto1, .texto3{left: 28%;}
@@ -962,7 +969,7 @@ footer > p{color: aliceblue; text-align: center;}
                                                 \-> Configuración:                                                                                                             */
                                                     .subtitulo{padding-right: 291px;}
 /*                                              \-> Posiciones:                                                                                                                */
-                                                    .titulo{left: 32.1%;}
+                                                    .titulo{left: 28.85%;}
                                                     .subtitulo{left: 21%;}
 /*                                              [Menu]
                                                 \-> Configuración:                                                                                                             */
@@ -979,7 +986,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                              [Nosotros]
                                                 \-> Configuración:                                                                                                             */
                                                     .texto1, .texto3{padding-right: 160px;}
-                                                    .texto2{padding-right: 355px;}
+                                                    .texto2{padding-right: 340px;}
 /*                                              \-> Posiciones:                                                                                                                */
                                                     .section-title-pq, .section-title-te{left: 31%;}
                                                     .texto1, .texto3{left: 26%;}
@@ -988,7 +995,7 @@ footer > p{color: aliceblue; text-align: center;}
                                                     \-> Configuración:                                                                                                         */
                                                         .subtitulo{padding-right: 284px;}
 /*                                                  \-> Posiciones:                                                                                                            */
-                                                        .titulo{left: 31.8%;}
+                                                        .titulo{left: 28.7%;}
                                                         .subtitulo{left: 20%;}
 /*                                                  [Menu]
                                                     \-> Configuración:                                                                                                         */
@@ -1005,7 +1012,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                  [Nosotros]
                                                     \-> Configuración:                                                                                                         */
                                                         .texto1, .texto3{padding-right: 155px;}
-                                                        .texto2{padding-right: 350px;}
+                                                        .texto2{padding-right: 330px;}
 /*                                                  \-> Posiciones:                                                                                                            */
                                                         .section-title-pq, .section-title-te{left: 29%;}
                                                         .texto1, .texto3{left: 24%;}
@@ -1014,7 +1021,7 @@ footer > p{color: aliceblue; text-align: center;}
                                                         \-> Configuración:                                                                                                     */
                                                             .subtitulo{padding-right: 277px;}
 /*                                                      \-> Posiciones:                                                                                                        */
-                                                            .titulo{left: 31.5%;}
+                                                            .titulo{left: 28.55%;}
                                                             .subtitulo{left: 19%;}
 /*                                                      [Menu]
                                                         \-> Configuración:                                                                                                     */
@@ -1032,7 +1039,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                      [Nosotros]
                                                         \-> Configuración:                                                                                                     */
                                                             .texto1, .texto3{padding-right: 150px;}
-                                                            .texto2{padding-right: 340px;}
+                                                            .texto2{padding-right: 320px;}
 /*                                                      \-> Posiciones:                                                                                                        */
                                                             .section-title-pq, .section-title-te{left: 27%;}
                                                             .texto1, .texto3{left: 22%;}
@@ -1041,7 +1048,7 @@ footer > p{color: aliceblue; text-align: center;}
                                                             \-> Configuración:                                                                                                 */
                                                                 .subtitulo{padding-right: 270px;}
 /*                                                          \-> Posiciones:                                                                                                    */
-                                                                .titulo{left: 31.2%;}
+                                                                .titulo{left: 28.4%;}
                                                                 .subtitulo{left: 18.5%;}
 /*                                                          [Menu]
                                                             \-> Configuración:                                                                                                 */
@@ -1068,7 +1075,7 @@ footer > p{color: aliceblue; text-align: center;}
                                                                 \-> Configuración:                                                                                             */
                                                                     .subtitulo{padding-right: 263px;}
 /*                                                              \-> Posiciones:                                                                                                */
-                                                                    .titulo{left: 31.1%;}
+                                                                    .titulo{left: 28.25%;}
                                                                     .subtitulo{left: 18%;}
 /*                                                              [Menu]
                                                                 \-> Configuración:                                                                                             */
@@ -1095,7 +1102,7 @@ footer > p{color: aliceblue; text-align: center;}
                                                                     \-> Configuración:                                                                                         */
                                                                         .subtitulo{padding-right: 262px;}
 /*                                                                  \-> Posiciones:                                                                                            */
-                                                                        .titulo{left: 31%;}
+                                                                        .titulo{left: 28.1%;}
 /*                                                                  [Menu]
                                                                     \-> Configuración:                                                                                         */
                                                                         .muzarella-ingredientes, .verd-ingredientes, 
@@ -1119,7 +1126,7 @@ footer > p{color: aliceblue; text-align: center;}
                                                                         @media(max-width: 810px){
 /*                                                                      [Inicio]
                                                                         \-> Posiciones:                                                                                        */
-                                                                            .titulo{left: 30.7%;}
+                                                                            .titulo{left: 27.95%;}
 /*                                                                      [Menu]
                                                                         \-> Configuración:                                                                                     */
                                                                             .muzarella-ingredientes, .verd-ingredientes, 
@@ -1143,7 +1150,7 @@ footer > p{color: aliceblue; text-align: center;}
                                                                             @media(max-width: 800px){
 /*                                                                          [Inicio]
                                                                             \-> Posiciones:                                                                                    */
-                                                                                .titulo{left: 30.4%;}
+                                                                                .titulo{left: 27.8%;}
                                                                                 .subtitulo{left: 17%;}
 /*                                                                          [Menu]
                                                                             \-> Configuración:                                                                                 */
@@ -1170,7 +1177,7 @@ footer > p{color: aliceblue; text-align: center;}
                                                                                 \-> Configuración:                                                                             */
                                                                                     .subtitulo{padding-right: 250px;}
 /*                                                                              \-> Posiciones:                                                                                */
-                                                                                    .titulo{left: 30.1%;}
+                                                                                    .titulo{left: 27.65%;}
                                                                                     .subtitulo{left: 15.8%;}
 /*                                                                              [Menu]
                                                                                 \-> Configuración:                                                                             */
@@ -1195,7 +1202,7 @@ footer > p{color: aliceblue; text-align: center;}
                                                                                     @media(max-width: 780px){
 /*                                                                                  [Inicio]
                                                                                     \-> Posiciones:                                                                            */
-                                                                                        .titulo{left: 29.8%;}
+                                                                                        .titulo{left: 27.5%;}
                                                                                         .subtitulo{left: 15.7%;}
 /*                                                                                  [Menu]
                                                                                     \-> Configuración:                                                                         */
@@ -1220,7 +1227,7 @@ footer > p{color: aliceblue; text-align: center;}
                                                                                         @media(max-width: 770px){
 /*                                                                                      [Inicio]
                                                                                         \-> Posiciones:                                                                        */
-                                                                                            .titulo{left: 29.5%;}
+                                                                                            .titulo{left: 27.35%;}
                                                                                             .subtitulo{left: 15.6%;}
 /*                                                                                      [Menu]
                                                                                         \-> Configuración:                                                                     */
@@ -1249,10 +1256,10 @@ footer > p{color: aliceblue; text-align: center;}
     .fondo-480, .fondo-992, .fondo-1200, .fondo{display: none;}
 /*[Inicio]
 /*\-> Configuración:                                                                                                                                                           */
-    .titulo{font-size: 200%; color: #cda45e}
+    .titulo{font-size: 230%; color: #cda45e}
     .subtitulo{font-size: 100%; padding-right: 245px;}
-/*\-> Posiciones:                                                                                                                                                              */
-    .titulo{top: 43%; left: 30%;}
+/*\-> Posiciones:                                                                                                                                            */
+    .titulo{top: 43%; left: 27.35%;}
     .subtitulo{top: 53%; left: 13.6%;}
 /*[Menu]
 /*\-> Configuración:                                                                                                                                                           */
@@ -1288,7 +1295,7 @@ footer > p{color: aliceblue; text-align: center;}
     \-> Configuración:                                                                                                                                                         */
         .subtitulo{padding-right: 242px;}
 /*  \-> Posiciones:                                                                                                                                                            */
-        .titulo{left: 30.5%;}
+        .titulo{left: 27.2%;}
         .subtitulo{left: 13.2%;}
 /*  [Menu]
     \-> Configuración:                                                                                                                                                         */
@@ -1303,7 +1310,7 @@ footer > p{color: aliceblue; text-align: center;}
         \-> Configuración:                                                                                                                                                     */
             .subtitulo{padding-right: 241px;}
 /*      \-> Posiciones:                                                                                                                                                        */
-            .titulo{left: 30%;}
+            .titulo{left: 27.05%;}
             .subtitulo{left: 12.2%;}
 /*      [Menu]
         \-> Configuración:                                                                                                                                                     */
@@ -1318,7 +1325,7 @@ footer > p{color: aliceblue; text-align: center;}
             \-> Configuración:                                                                                                                                                 */
                 .subtitulo{padding-right: 240px;}
 /*          \-> Posiciones:                                                                                                                                                    */
-                .titulo{left: 29.9%;}
+                .titulo{left: 26.9%;}
                 .subtitulo{left: 11.2%;}
 /*          [Menu]
             \-> Configuración:                                                                                                                                                 */
@@ -1333,7 +1340,7 @@ footer > p{color: aliceblue; text-align: center;}
                 \-> Configuración:                                                                                                                                             */
                     .subtitulo{padding-right: 234px;}
 /*              \-> Posiciones:                                                                                                                                                */
-                    .titulo{left: 29.8%;}
+                    .titulo{left: 26.75%;}
                     .subtitulo{left: 10.8%;}
 /*              [Menu]
                 \-> Configuración:                                                                                                                                             */
@@ -1348,7 +1355,7 @@ footer > p{color: aliceblue; text-align: center;}
                     \-> Configuración:                                                                                                                                         */
                         .subtitulo{padding-right: 228px;}
 /*                  \-> Posiciones:                                                                                                                                            */
-                        .titulo{left: 29.7%;}
+                        .titulo{left: 26.6%;}
                         .subtitulo{left: 10.4%;}
 /*                  [Menu]
                     \-> Posiciones:                                                                                                                                            */
@@ -1361,7 +1368,7 @@ footer > p{color: aliceblue; text-align: center;}
                         \-> Configuración:                                                                                                                                     */
                             .subtitulo{padding-right: 225px;}
 /*                      \-> Posiciones:                                                                                                                                        */
-                            .titulo{left: 28.6%;}
+                            .titulo{left: 26.45%;}
                             .subtitulo{left: 10%;}
 /*                      [Menu]
                         \-> Posiciones:                                                                                                                                        */
@@ -1374,7 +1381,7 @@ footer > p{color: aliceblue; text-align: center;}
                             \-> Configuración:                                                                                                                                 */
                                 .subtitulo{font-size: 102%; padding-right: 215px;}
 /*                          \-> Posiciones:                                                                                                                                    */
-                                .titulo{left: 28.4%;}
+                                .titulo{left: 26.3%;}
                                 .subtitulo{left: 8.6%;}
 /*                          [Menu]
                             \-> Configuración:                                                                                                                                 */
@@ -1389,7 +1396,7 @@ footer > p{color: aliceblue; text-align: center;}
                                 \-> Configuración:                                                                                                                             */
                                     .subtitulo{font-size: 104%; padding-right: 29%;}
 /*                              \-> Posiciones:                                                                                                                                */
-                                    .titulo{left: 28.2%;}
+                                    .titulo{left: 26.15%;}
                                     .subtitulo{left: 8.4%;}
 /*                              [Menu]
                                 \-> Configuración:                                                                                                                             */
@@ -1404,7 +1411,7 @@ footer > p{color: aliceblue; text-align: center;}
                                     \-> Configuración:                                                                                                                         */
                                         .subtitulo{font-size: 106%; padding-right: 27%;}
 /*                                  \-> Posiciones:                                                                                                                            */
-                                        .titulo{left: 27.8%;}
+                                        .titulo{left: 26%;}
                                         .subtitulo{left: 8%;}
 /*                                  [Menu]
                                     \-> Configuración:                                                                                                                         */
@@ -1419,7 +1426,6 @@ footer > p{color: aliceblue; text-align: center;}
                                         \-> Configuración:                                                                                                                     */
                                             .subtitulo{font-size: 108%; padding-right: 170px;}
 /*                                      \-> Posiciones:                                                                                                                        */
-                                            .titulo{left: 27.4%;}
                                             .subtitulo{left: 7.6%;}
 /*                                      [Menu]
                                         \-> Posiciones:                                                                                                                        */
@@ -1434,7 +1440,6 @@ footer > p{color: aliceblue; text-align: center;}
                                             \-> Configuración:                                                                                                                 */
                                                 .subtitulo{font-size: 110%;}
 /*                                          \-> Posiciones:                                                                                                                    */
-                                                .titulo{left: 27%;}
                                                 .subtitulo{left: 7.2%;}
 /*                                          [Menu]
                                             \-> Configuración:                                                                                                                 */
@@ -1451,7 +1456,6 @@ footer > p{color: aliceblue; text-align: center;}
                                                 \-> Configuración:                                                                                                             */
                                                     .subtitulo{font-size: 112%;}
 /*                                              \-> Posiciones:                                                                                                                */
-                                                    .titulo{left: 26.4%;}
                                                     .subtitulo{left: 6.8%;}
 /*                                              [Menu]
                                                 \-> Posiciones:                                                                                                                */
@@ -1466,7 +1470,6 @@ footer > p{color: aliceblue; text-align: center;}
                                                     \-> Configuración:                                                                                                         */
                                                         .subtitulo{font-size: 114%; padding-right: 125px;}
 /*                                                  \-> Posiciones:                                                                                                            */
-                                                        .titulo{left: 26.2%;}
                                                         .subtitulo{left: 6.4%;}
 /*                                                  [Menu]
                                                     \-> Posiciones:                                                                                                            */
@@ -1482,7 +1485,6 @@ footer > p{color: aliceblue; text-align: center;}
                                                         \-> Configuración:                                                                                                     */
                                                             .subtitulo{font-size: 116%; padding-right: 110px;}
 /*                                                      \-> Posiciones:                                                                                                        */
-                                                            .titulo{left: 25.8%;}
                                                             .subtitulo{left: 6%;}
 /*                                                      [Menu]
                                                         \-> Configuración:                                                                                                     */
@@ -1500,7 +1502,6 @@ footer > p{color: aliceblue; text-align: center;}
                                                             \-> Configuración:                                                                                                 */
                                                                 .subtitulo{font-size: 118%; padding-right: 100px;}
 /*                                                          \-> Posiciones:                                                                                                    */
-                                                                .titulo{left: 25.4%;}
                                                                 .subtitulo{left: 4.99%;}
 /*                                                          [Menu]
                                                             \-> Posiciones:                                                                                                    */
@@ -1516,7 +1517,6 @@ footer > p{color: aliceblue; text-align: center;}
                                                                 \-> Configuración:                                                                                             */
                                                                     .subtitulo{font-size: 120%; padding-right: 80px;}
 /*                                                              \-> Posiciones:                                                                                                */
-                                                                    .titulo{left: 25%;}
                                                                     .subtitulo{left: 5.04%;}
 /*                                                              [Menu]
                                                                 \-> Posiciones:                                                                                                */
@@ -1532,7 +1532,6 @@ footer > p{color: aliceblue; text-align: center;}
                                                                     \-> Configuración:                                                                                         */
                                                                         .subtitulo{font-size: 122%; padding-right: 60px;}
 /*                                                                  \-> Posiciones:                                                                                            */
-                                                                        .titulo{left: 24.6%;}
                                                                         .subtitulo{left: 5.09%;}
 /*                                                                  [Menu]
                                                                     \-> Configuración:                                                                                         */
@@ -1551,7 +1550,6 @@ footer > p{color: aliceblue; text-align: center;}
                                                                         \-> Configuración:                                                                                     */
                                                                             .subtitulo{font-size: 124%; padding-right: 50px;}
 /*                                                                      \-> Posiciones:                                                                                        */
-                                                                            .titulo{left: 24.2%;}
                                                                             .subtitulo{left: 5.14%;}
 /*                                                                      [Menu]
                                                                         \-> Configuración:                                                                                     */
@@ -1567,7 +1565,6 @@ footer > p{color: aliceblue; text-align: center;}
                                                                             \-> Configuración:                                                                                 */
                                                                                 .subtitulo{font-size: 126%;}
 /*                                                                          \-> Posiciones:                                                                                    */
-                                                                                .titulo{left: 24%;}
                                                                                 .subtitulo{left: 5.19%;}
 /*                                                                          [Menu]
                                                                             \-> Configuración:                                                                                 */
@@ -1615,7 +1612,6 @@ footer > p{color: aliceblue; text-align: center;}
                                                                                         \-> Configuración:                                                                     */
                                                                                             .subtitulo{font-size: 132%;}
 /*                                                                                      \-> Posiciones:                                                                        */
-                                                                                            .titulo{left: 24.5%;}
                                                                                             .subtitulo{left: 5.34%;}
 /*                                                                                      [Menu]
                                                                                         \-> Configuración:                                                                     */
@@ -1632,7 +1628,6 @@ footer > p{color: aliceblue; text-align: center;}
                                                                                             \-> Configuración:                                                                 */
                                                                                                 .subtitulo{font-size: 134%;}
 /*                                                                                          \-> Posiciones:                                                                    */
-                                                                                                .titulo{left: 25%;}
                                                                                                 .subtitulo{left: 5.39%;}
 /*                                                                                          [Menu]
                                                                                             \-> Configuración:                                                                 */
@@ -1649,7 +1644,6 @@ footer > p{color: aliceblue; text-align: center;}
                                                                                                 \-> Configuración:                                                             */
                                                                                                     .subtitulo{font-size: 136%;}
 /*                                                                                              \-> Posiciones:                                                                */
-                                                                                                    .titulo{left: 25.5%;}
                                                                                                     .subtitulo{left: 5.44%;}
 /*                                                                                              [Menu]
                                                                                                 \-> Configuración:                                                             */
@@ -1664,9 +1658,9 @@ footer > p{color: aliceblue; text-align: center;}
                                                                                                     @media(max-width: 520px){
 /*                                                                                                  [Inicio]
                                                                                                     \-> Configuración:                                                         */
-                                                                                                        .subtitulo{font-size: 138%;}
+                                                                                                    .titulo{left: 21%;}
+                                                                                                    .subtitulo{font-size: 138%;}
 /*                                                                                                  \-> Posiciones:                                                            */
-                                                                                                        .titulo{left: 26%;}
                                                                                                         .subtitulo{left: 2.9%;}
 /*                                                                                                  [Menu]
                                                                                                     \-> Configuración:                                                         */
@@ -1681,7 +1675,6 @@ footer > p{color: aliceblue; text-align: center;}
                                                                                                         @media(max-width: 510px){
 /*                                                                                                      [Inicio]
                                                                                                         \-> Posiciones:                                                        */
-                                                                                                            .titulo{left: 26.5%;}
 /*                                                                                                      [Menu]
                                                                                                         \-> Configuración:                                                     */
                                                                                                             .muzarella-ingredientes, .verd-ingredientes,
@@ -1696,7 +1689,6 @@ footer > p{color: aliceblue; text-align: center;}
                                                                                                             @media(max-width: 500px){
 /*                                                                                                          [Inicio]
                                                                                                             \-> Posiciones:                                                    */
-                                                                                                                .titulo{left: 26.5%;}
 /*                                                                                                          [Menu]
                                                                                                             \-> Configuración:                                                 */
                                                                                                                 .muzarella-ingredientes, .verd-ingredientes,
@@ -1711,7 +1703,6 @@ footer > p{color: aliceblue; text-align: center;}
                                                                                                                 @media(max-width: 490px){
 /*                                                                                                              [Inicio]
                                                                                                                 \-> Posiciones:                                                */
-                                                                                                                    .titulo{left: 26.5%;}
 /*                                                                                                              [Menu]
                                                                                                                 \-> Configuración:                                             */
                                                                                                                     .muzarella-ingredientes, .verd-ingredientes,
