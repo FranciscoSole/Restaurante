@@ -1,26 +1,22 @@
 window.onload = paginaCargada;
 
-function paginaCargada(visible){
-    var visible = false
-    if (visible === false){
-        let abrir = document.getElementById("ingresar");
-        abrir.onclick = abrirFormulario;
-    }
-    else{
-        document.getElementById("panel").style.display = "none";
-    }
-
+function paginaCargada(){
+    var visible = false;
+    let abrir = document.getElementById("ingresar");
+    abrir.onclick = abrirFormulario(visible);
+    
     let connect = document.getElementById("conectar");
     connect.onclick = conectado;
 }
 
-function abrirFormulario(){
-    document.getElementById("panel").style.display = "block";
-}
-
-function cerrarFormulario(){
-    var visible = true
-    paginaCargada(visible)
+function abrirFormulario(visible){
+    if (visible === false){
+        document.getElementById("panel").style.display = "block";
+        var visible = true;
+    }
+    else{
+        document.getElementById("panel").style.display = "none";
+    }
 }
 
 function conectado(){
