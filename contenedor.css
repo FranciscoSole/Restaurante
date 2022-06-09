@@ -20,7 +20,7 @@ footer > p{color: aliceblue; text-align: center;}
 
 #ingresar, #userLabel, #pwLabel{color: #cda45e; font-weight:400!important;}
 
-#panel{position:absolute; text-align: center; background-color: #343a40; display:none; right: 0; top: 5%; width:500px; height:500px;}
+#panel{position:absolute; text-align: center; background-color: #343a40; display: none; right: 0; top: 5%; width:500px; height:500px;padding-top:7%;}
 
 #userLabel{padding-top:250px}
 #userLabel, #pwLabel{font-size: 150%;}
