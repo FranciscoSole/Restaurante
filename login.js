@@ -1,14 +1,32 @@
 window.onload = paginaCargada;
 
+function paginaCargada(visible){
+    var visible = false
+    if (visible === false){
+        let abrir = document.getElementById("ingresar");
+        abrir.onclick = abrirFormulario;
+    }
+    else{
+        document.getElementById("panel").style.display = "none";
+    }
 
-function paginaCargada(){
-    let abrir = document.getElementById("ingresar");
-    let check = 0
-    abrir.onclick = abrirFormulario(check);
+    let connect = document.getElementById("conectar");
+    connect.onclick = conectado;
 }
 
-function abrirFormulario(check){
-    if (check == 0){document.getElementById("panel").style.display = "block";}
+function abrirFormulario(){
+    document.getElementById("panel").style.display = "block";
+}
 
+function cerrarFormulario(){
+    var visible = true
+    paginaCargada(visible)
+}
 
+function conectado(){
+    let lastUser = document.getElementById("user");
+    if (lastUser === "a"){
+        alert("Error: no existe una cuenta con ese usuario");
+        return;
+    }
 }

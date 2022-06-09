@@ -18,9 +18,16 @@ footer > p{color: aliceblue; text-align: center;}
 
 .nav-item{white-space: pre!important;}
 
-#ingresar{color: #cda45e; font-weight:400!important;}
+#ingresar, #userLabel, #pwLabel{color: #cda45e; font-weight:400!important;}
 
-#panel{top:20%; left: 20%; display:hidden; background-color:white; width:500px;}
+#panel{position:absolute; text-align: center; background-color: #343a40; display:none; right: 0; top: 5%; width:500px; height:500px;}
+
+#userLabel{padding-top:250px}
+#userLabel, #pwLabel{font-size: 150%;}
+#user, #pw{font-size: 130%;}
+#user, #pw, #conectar{width: 300px; height: 30px;}
+#conectar{height:40px;}
+
 
 /* ---------------------------------------------------------------------------------- Inicio --------------------------------------------------------------------------------- */
 /* General */
