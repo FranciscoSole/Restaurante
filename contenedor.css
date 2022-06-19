@@ -140,11 +140,12 @@ footer > p{color: aliceblue; text-align: center;}
 
 /* -------------------------------------------------------------------------------- Responsive ------------------------------------------------------------------------------- */
 
-@media(max-width: 2561px){
+@media(max-width: 2562px){
     .fondo, .img-carousel{display: block; width: 100%; height: 100vh;}
     .fondo-480, .fondo-768, .fondo-992, .fondo-1200{display: none;}
     .vector{width:60px; height:27px;}
     .nav-link{margin-top: 0px;}
+    #pizza{left: 32.9%; top: 94.5%; width: 657px;}
 
 /*[Inicio]
 /*\-> Configuración:                                                                                                                                                           */
@@ -169,7 +170,7 @@ footer > p{color: aliceblue; text-align: center;}
 
     #ft{position:absolute; font-family: 'montserrat'; color:white; font-size: 135%; text-shadow: 2px 1.5px #000;}
 /*\-> Posiciones:                                                                                                                                                              */
-    .section-title{top: 10%; left: 59%} 
+    .section-title{top: 10%; left: 61.5%} 
     .muzarella-nombre{top: 21.5%; left: 70.5%;}
     .verd-nombre{top: 39%; left: 70%;}
     .fgzt-nombre{top: 56%; left: 67.25%;}
@@ -204,173 +205,230 @@ footer > p{color: aliceblue; text-align: center;}
     .texto1{top: 35%;}
     .texto2{top: 131%;}
     .texto3{top: 214%;}
-    @media(max-width: 1500px){
-        .titulo{left: 33%;}
-        .subtitulo{padding-right: 480px;left: 20%;}
-        @media(max-width: 1430px){
-            .subtitulo{left: 22.4%;}
+    @media(max-width: 2561px){
+        .section-title-pq, .section-title-fg, .section-title-te{font-size: 350%!important}
+        .texto1, .texto2, .texto3{left: 3%; white-space: pre-line; font-size: 220%;}
+        .texto1, .texto3{left: 55%;}
+
+        .section-title{font-size: 450%;}
+        .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{font-size: 300%;} 
+        .muzarella-nombre{top: 21.5%; left: 70%;}
+        .verd-nombre{top: 39%; left: 69.5%;}
+        .fgzt-nombre{top: 56%; left: 66.75%;}
+        .pys-nombre{top: 74%; left: 65.5%;}
+        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 235%}
+        .comprar{width: 950px; height: 100px; font-size: 250%;}
+
+        .titulo{font-size: 550%;text-shadow: 9px 1px #000; left: 32%;}
+        .subtitulo{font-size: 320%;text-shadow: 9px 1px #000; left: 18.9%;}
+
+        .nav{height: 90px; font-size: 200%;}
+        .vector{height: 50px; width: 125px;}
+        .empuje{margin-left: 1850px}
+    
+        @media(max-width: 1921px){
+            .section-title{font-size: 300%; left: 63.5%;}
+            .muzarella-nombre{top: 21.5%; left: 74%;}
+            .verd-nombre{top: 39%; left: 73.5%;}
+            .fgzt-nombre{top: 56%; left: 70.75%;}
+            .pys-nombre{top: 74%; left: 69.5%;}
+            .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{font-size: 160%;} 
+            .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{left:63.5%; font-size: 150%;padding-right: 20px;}
+            .comprar{left: 63.5%; width:660px; font-size: 120%; height:55px}
+
+            .titulo{font-size: 300%; left: 31%; top: 48%;}
+            .subtitulo{font-size: 150%; padding-right: 500px; left: 22%}
+            .empuje{margin-left: 1500px}
+
             
-            @media(max-width: 1420px){
-                .subtitulo{left: 22.7%;}
+            .section-title-pq, .section-title-fg, .section-title-te{font-size: 220%!important}
+            .texto1, .texto2, .texto3{left: 3%; white-space: pre-line; font-size: 130%;}
+            .texto1, .texto3{left: 55%;}    
+            .texto2{padding-right: 1150px;}  
 
-                .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 65px;}
+            .nav{height: 20px; font-size: 100%;}
+            .vector{height: 25px; width: 65px;}
+            /*.section-title{font-size: 300%; left: 61%;}
+            .muzarella-nombre{top: 21.5%; left: 72%;}
+            .verd-nombre{top: 39%; left: 71.5%;}
+            .fgzt-nombre{top: 56%; left: 68.75%;}
+            .pys-nombre{top: 74%; left: 67.5%;}
+            .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{font-size: 160%;} 
+            .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{left:61.5%; font-size: 130%;}
+            .comprar{left: 61.5%; width:660px; font-size: 120%; height:55px}
 
-                @media(max-width: 1410px){
-                    .subtitulo{left: 23%;}
+            .nav{height: 20px; font-size: 100%;}
+            .vector{height: 25px; width: 65px;}
+            .empuje{margin-left: 920px}*/
 
-                    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 60px;}
-                    
+            @media(max-width: 1500px){
 
-                    @media(max-width: 1400px){
-                        .subtitulo{left: 23.4%;}
+                @media(max-width: 1440px){
+                    .subtitulo{left: 22.4%;}
+                    .section-title{font-size: 250%; left: 63%;}
+                    .comprar{left: 63.5%; width:500px;}
+                    .texto2{padding-right: 720px;}  
+                    @media(max-width: 1420px){
+                        .subtitulo{left: 22.7%;}
 
-                        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 55px;}
-                        .comprar{top: 92%;width:500px; height:45px}
+                        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 65px;}
 
+                        @media(max-width: 1410px){
+                            .subtitulo{left: 23%;}
 
-                        .texto2{padding-right: 740px;}
-                        @media(max-width: 1390px){
-                            .subtitulo{padding-right: 485px;}
-                            .subtitulo{left: 23.7%;}
+                            .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 60px;}
+                            
 
-                            .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 50px;}
+                            @media(max-width: 1400px){
+                                .subtitulo{left: 23.4%;}
 
-
-                            .texto2{padding-right: 730px;}
-                            @media(max-width: 1380px){
-                                .subtitulo{left: 24%;}
-
-                                .texto2{padding-right: 720px;}
-                                @media(max-width: 1370px){
-                                    .subtitulo{left: 24.2%;}
-
-                                    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 45px;}
-
-
-                                    .texto2{padding-right: 710px;}
-                                    @media(max-width: 1360px){
-                                        .subtitulo{left: 24.1%;}
-
-                                        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 40px;}
-
-
-                                        .texto2{padding-right: 700px;}
-                                        @media(max-width: 1350px){
-                                            .subtitulo{left: 24%;}
-
-                                            .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 35px;}
+                                .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 55px;}
+                                .comprar{top: 92%;width:500px; }
 
 
-                                            .texto2{padding-right: 690px;}
-                                            @media(max-width: 1340px){
-                                                .subtitulo{left: 23.9%;}
+                                .texto2{padding-right: 740px;}
+                                @media(max-width: 1390px){
+                                    .subtitulo{padding-right: 485px;}
+                                    .subtitulo{left: 23.7%;}
 
-                                                .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 30px;}
-
-                                                
-                                                .texto2{padding-right: 680px;}
-                                                @media(max-width: 1330px){
-                                                    .subtitulo{padding-right: 475px;}
-                                                    .subtitulo{left: 23.8%;}
-
-                                                    .texto2{padding-right: 670px;}
-                                                    @media(max-width: 1320px){
-                                                        .subtitulo{left: 23.7%;}
-
-                                                        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 25px;}
+                                    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 50px;}
 
 
-                                                        .texto2{padding-right: 660px;}
-                                                        @media(max-width: 1310px){
-                                                            .subtitulo{padding-right: 470px;}
-                                                            .subtitulo{left: 23.6%;}
+                                    .texto2{padding-right: 730px;}
+                                    @media(max-width: 1380px){
+                                        .subtitulo{left: 24%;}
 
-                                                            .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 20px;}
+                                        .texto2{padding-right: 720px;}
+                                        @media(max-width: 1370px){
+                                            .subtitulo{left: 24.2%;}
 
-
-                                                            .texto2{padding-right: 650px;}
-                                                            @media(max-width: 1300px){
-                                                                .subtitulo{left: 23.5%;}
-
-                                                                .muzarella-ingredientes, .pys-ingredientes, 
-                                                                .verd-ingredientes, .fgzt-ingredientes{padding-right: 15px;}
-                                                                .comprar{width:500px;}
-                                                                @media(max-width: 1290px){
-                                                                    .subtitulo{font-size: 149%; padding-right: 460px;}
-                                                                    .subtitulo{left: 23%;}
-
-                                                                    .muzarella-ingredientes, .pys-ingredientes, 
-                                                                    .verd-ingredientes, .fgzt-ingredientes{padding-right: 60px;}
+                                            .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 45px;}
 
 
-                                                                    .texto2{padding-right: 640px;}
-                                                                    @media(max-width: 1280px){
-                                                                                        
-                                                                        .subtitulo{font-size: 148%; padding-right: 450px;}
-                                                                        .subtitulo{left: 22.5%;}
+                                            .texto2{padding-right: 710px;}
+                                            @media(max-width: 1360px){
+                                                .subtitulo{left: 24.1%;}
+
+                                                .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 40px;}
+
+
+                                                .texto2{padding-right: 700px;}
+                                                @media(max-width: 1350px){
+                                                    .subtitulo{left: 24%;}
+
+                                                    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 35px;}
+
+
+                                                    .texto2{padding-right: 690px;}
+                                                    @media(max-width: 1340px){
+                                                        .subtitulo{left: 23.9%;}
+
+                                                        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 30px;}
+
+                                                        
+                                                        .texto2{padding-right: 680px;}
+                                                        @media(max-width: 1330px){
+                                                            .subtitulo{padding-right: 475px;}
+                                                            .subtitulo{left: 23.8%;}
+
+                                                            .texto2{padding-right: 670px;}
+                                                            @media(max-width: 1320px){
+                                                                .subtitulo{left: 23.7%;}
+
+                                                                .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 25px;}
+
+
+                                                                .texto2{padding-right: 660px;}
+                                                                @media(max-width: 1310px){
+                                                                    .subtitulo{padding-right: 470px;}
+                                                                    .subtitulo{left: 23.6%;}
+
+                                                                    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 20px;}
+
+
+                                                                    .texto2{padding-right: 650px;}
+                                                                    @media(max-width: 1300px){
+                                                                        .subtitulo{left: 23.5%;}
 
                                                                         .muzarella-ingredientes, .pys-ingredientes, 
-                                                                        .verd-ingredientes, .fgzt-ingredientes{padding-right: 55px;}
-
-                                                                        .texto2{padding-right: 630px;}
-                                                                        @media(max-width: 1270px){
-                                                                            .subtitulo{font-size: 147%; padding-right: 440px;}
-                                                                            .subtitulo{left: 22%;}
+                                                                        .verd-ingredientes, .fgzt-ingredientes{padding-right: 15px;}
+                                                                        .comprar{width:450px;}
+                                                                        @media(max-width: 1290px){
+                                                                            .subtitulo{font-size: 149%; padding-right: 460px;}
+                                                                            .subtitulo{left: 23%;}
 
                                                                             .muzarella-ingredientes, .pys-ingredientes, 
-                                                                            .verd-ingredientes, .fgzt-ingredientes{padding-right: 50px;}
+                                                                            .verd-ingredientes, .fgzt-ingredientes{padding-right: 60px;}
 
-                                                                            .texto2{padding-right: 620px;}
-                                                                            @media(max-width: 1260px){
+
+                                                                            .texto2{padding-right: 640px;}
+                                                                            @media(max-width: 1280px){
+                                                                                                
+                                                                                .subtitulo{font-size: 148%; padding-right: 450px;}
+                                                                                .subtitulo{left: 22.5%;}
+
                                                                                 .muzarella-ingredientes, .pys-ingredientes, 
-                                                                                .verd-ingredientes, .fgzt-ingredientes{padding-right: 45px;}
-                                                                                
-                                                                                .subtitulo{font-size: 146%; padding-right: 430px;}
-                                                                                .subtitulo{left: 21.5%;}
+                                                                                .verd-ingredientes, .fgzt-ingredientes{padding-right: 55px;}
 
-                                                                                
-                                                                                .comprar{width:450px;}
-                                                                                @media(max-width: 1250px){
-                                                                                    .subtitulo{font-size: 145%; padding-right: 420px;}
-                                                                                    .subtitulo{left: 21%;}
+                                                                                .texto2{padding-right: 630px;}
+                                                                                @media(max-width: 1270px){
+                                                                                    .subtitulo{font-size: 147%; padding-right: 440px;}
+                                                                                    .subtitulo{left: 22%;}
 
                                                                                     .muzarella-ingredientes, .pys-ingredientes, 
-                                                                                    .verd-ingredientes, .fgzt-ingredientes{padding-right: 40px;}
+                                                                                    .verd-ingredientes, .fgzt-ingredientes{padding-right: 50px;}
 
-
-                                                                                    .texto2{padding-right: 610px;}
-                                                                                    @media(max-width: 1240px){
-                                                                                        .subtitulo{font-size: 144%; padding-right: 410px;}
-                                                                                        .subtitulo{left: 20.5%;}
+                                                                                    .texto2{padding-right: 620px;}
+                                                                                    @media(max-width: 1260px){
+                                                                                        .muzarella-ingredientes, .pys-ingredientes, 
+                                                                                        .verd-ingredientes, .fgzt-ingredientes{padding-right: 45px;}
                                                                                         
-                                                                                        .texto2{padding-right: 600px;}
-                                                                                        @media(max-width: 1230px){
-                                                                                            .subtitulo{font-size: 143%; padding-right: 400px;}
-                                                                                            .subtitulo{left: 20%;}
+                                                                                        .subtitulo{font-size: 146%; padding-right: 430px;}
+                                                                                        .subtitulo{left: 21.5%;}
+
+                                                                                        
+                                                                                        .comprar{width:450px;}
+                                                                                        @media(max-width: 1250px){
+                                                                                            .subtitulo{font-size: 145%; padding-right: 420px;}
+                                                                                            .subtitulo{left: 21%;}
 
                                                                                             .muzarella-ingredientes, .pys-ingredientes, 
-                                                                                            .verd-ingredientes, .fgzt-ingredientes{padding-right: 30px;}
+                                                                                            .verd-ingredientes, .fgzt-ingredientes{padding-right: 40px;}
 
-                                                                                            .texto2{padding-right: 590px;}
-                                                                                            @media(max-width: 1220px){
-                                                                                                .subtitulo{font-size: 142%; padding-right: 390px;}
-                                                                                                .subtitulo{left: 19.5%;}
 
-                                                                                                .muzarella-ingredientes, .pys-ingredientes, 
-                                                                                                .verd-ingredientes, .fgzt-ingredientes{padding-right: 25px;}
-
-                                                                                                .texto2{padding-right: 580px;}
-                                                                                                @media(max-width: 1210px){
-                                                                                                    .subtitulo{font-size: 141%;}
+                                                                                            .texto2{padding-right: 610px;}
+                                                                                            @media(max-width: 1240px){
+                                                                                                .subtitulo{font-size: 144%; padding-right: 410px;}
+                                                                                                .subtitulo{left: 20.5%;}
+                                                                                                
+                                                                                                .texto2{padding-right: 600px;}
+                                                                                                @media(max-width: 1230px){
+                                                                                                    .subtitulo{font-size: 143%; padding-right: 400px;}
                                                                                                     .subtitulo{left: 20%;}
-                                                                                                    
-                                                                                                    .muzarella-ingredientes, .pys-ingredientes, 
-                                                                                                    .verd-ingredientes, .fgzt-ingredientes{padding-right: 20px;}
-                                                                                                    .section-title{font-size:240%;}
 
-                                                                                                    .texto2{padding-right: 570px;}
-                                                                                                    @media(max-width: 1200px){ 
-}    }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }
+                                                                                                    .muzarella-ingredientes, .pys-ingredientes, 
+                                                                                                    .verd-ingredientes, .fgzt-ingredientes{padding-right: 30px;}
+
+                                                                                                    .texto2{padding-right: 590px;}
+                                                                                                    @media(max-width: 1220px){
+                                                                                                        .subtitulo{font-size: 142%; padding-right: 390px;}
+                                                                                                        .subtitulo{left: 19.5%;}
+
+                                                                                                        .muzarella-ingredientes, .pys-ingredientes, 
+                                                                                                        .verd-ingredientes, .fgzt-ingredientes{padding-right: 25px;}
+
+                                                                                                        .texto2{padding-right: 580px;}
+                                                                                                        @media(max-width: 1210px){
+                                                                                                            .subtitulo{font-size: 141%;}
+                                                                                                            .subtitulo{left: 20%;}
+                                                                                                            
+                                                                                                            .muzarella-ingredientes, .pys-ingredientes, 
+                                                                                                            .verd-ingredientes, .fgzt-ingredientes{padding-right: 20px;}
+                                                                                                            .section-title{font-size:240%;}
+
+                                                                                                            .texto2{padding-right: 570px;}
+                                                                                                            @media(max-width: 1200px){ 
+}    }   }    }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }
 
 @media(max-width: 1199px){
     .fondo-1200, .img-carousel{display: block; width: 100%; height: 100vh;}
@@ -414,9 +472,9 @@ footer > p{color: aliceblue; text-align: center;}
     .texto3{padding-right: 45px;}
 /*\-> Posiciones:                                                                                                                                                              */
     .section-title-pq, .section-title-te{left: 58%;}
-    .section-title-pq{top: 32%;}
-    .section-title-fg{left: 8%; top: 124%;}
-    .section-title-te{top: 207%;}
+    .section-title-pq{top: 36%;}
+    .section-title-fg{left: 8%; top: 128%;}
+    .section-title-te{top: 211%;}
     .texto1, .texto3{left: 53%;}
     .texto1{top: 42%;}
     .texto2{top: 134%;}
@@ -1776,6 +1834,8 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                                          [Inicio]
                                                                             \-> Configuración:                                                                                 */
                                                                                 .subtitulo{font-size: 126%;}
+
+                                                                                .nav{height: 50px!important; font-size: 100%;}
 /*                                                                          \-> Posiciones:                                                                                    */
                                                                                 .subtitulo{left: 5.19%;}
 /*                                                                          [Menu]
