@@ -1,6 +1,6 @@
-window.onload= paginaCargada; 
+window.onload = main; 
 
-function paginaCargada(){
+function main(){
     let muz = document.getElementById("cant1");
     let pys = document.getElementById("cant2");
     let fgz = document.getElementById("cant3");
@@ -12,18 +12,15 @@ function paginaCargada(){
     vdr.selectedIndex = 0;
 
     pizza.innerText="No se seleccionó ninguna pizza";
+    pizza.onclick = function(){alert("No se seleccionó ninguna pizza");}
 
     muz.onchange = precio;
     pys.onchange = precio;
     fgz.onchange = precio;
     vdr.onchange = precio;
-
-    pizza.onclick = function(){alert("No se seleccionó ninguna pizza");}
-
 };
 
 function precio(){
-    debugger;
     let muz = document.getElementById("cant1");
     let pys = document.getElementById("cant2");
     let fgz = document.getElementById("cant3");
@@ -45,8 +42,8 @@ function precio(){
     total += mp + pysp + fgzp + vdrp;
 
     pizza.onclick = function(){
-        if (total == 0){alert("No se seleccionó ninguna pizza");}
-        else{alert("Pedido tomado, llegará pronto."); paginaCargada();}
+        if (total === 0){alert("No se seleccionó ninguna pizza");}
+        else{alert("Pedido tomado, llegará pronto."); main();}
     }
 
     if (total !== 0){pizza.innerText= "Precio total: $" + total;}
