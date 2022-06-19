@@ -32,7 +32,7 @@ function precio(){
 
     total += mp + pysp + fgzp + vdrp;
     if (total !== 0){
-        document.getElementById("ft").innerHTML= "Precio total: $" + total[0] + "." + total[1,3];
+        document.getElementById("ft").innerHTML= "Precio total: $" + total;
         document.getElementById("ft").style.left = "43%";}
         
     else{
