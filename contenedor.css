@@ -139,7 +139,8 @@ footer > p{color: aliceblue; text-align: center;}
 /*margin-left:auto; margin-right: auto;*/
 
 /* -------------------------------------------------------------------------------- Responsive ------------------------------------------------------------------------------- */
-@media(max-width: 2560px){
+
+@media(max-width: 2561px){
     .fondo, .img-carousel{display: block; width: 100%; height: 100vh;}
     .fondo-480, .fondo-768, .fondo-992, .fondo-1200{display: none;}
     .vector{width:60px; height:27px;}
@@ -147,33 +148,28 @@ footer > p{color: aliceblue; text-align: center;}
 
 /*[Inicio]
 /*\-> Configuración:                                                                                                                                                           */
-    .titulo{font-size: 300%; color: #cda45e}
-    .subtitulo{font-size: 150%; padding-right: 490px;}
-}
-
-@media(max-width: 1440px){
-    .fondo, .img-carousel{display: block; width: 100%; height: 100vh;}
-    .fondo-480, .fondo-768, .fondo-992, .fondo-1200{display: none;}
-    .vector{width:60px; height:27px;}
-    .nav-link{margin-top: 0px;}
-
-/*[Inicio]
-/*\-> Configuración:                                                                                                                                                           */
-    .titulo{font-size: 300%; color: #cda45e}
-    .subtitulo{font-size: 150%; padding-right: 490px;}
+    .titulo{font-size: 300%; color: #cda45e;}
+    .subtitulo{font-size: 160%; padding-right: 800px;}
 /*\-> Posiciones:                                                                                                                                                              */
-    .titulo{top: 42.5%; left: 33.5%;}
-    .subtitulo{top: 53%; left: 22%;}
+    .titulo{top: 47%; left: 35%;}
+    .subtitulo{top: 56.5%; left: 29%;}
 /*[Menu]
 /*\-> Configuración:                                                                                                                                                           */
     .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre, 
     .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{white-space: pre-line; text-shadow: 2px 2px #000!important; padding-right: 1px;}
-    .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{font-size: 140%; color: #cda45e;}
-    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 115%; color:white; left: 60%; margin-left: 1px; padding-right: 70px;}
+    .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{font-size: 170%; color: #cda45e;}
+    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 135%; color:white; left: 60%; margin-left: 1px; padding-right: 75px;}
     .precio{display: none;}
     .section-title{white-space: nowrap; font-size: 250%;}
+    .comprar{position:absolute!important;left: 60%; top: 90%; margin-left: 1px; width:560px; background-color: #5b0082; border-color: #000}
+
+    .t1, .t2, .t3, .t4{position:absolute; font-family: 'montserrat'; color:white;}
+    .ct{text-shadow: 1.5px 1.5px #000}
+    #cant1, #cant2, #cant3, #cant4{background-color: #000; color:white;}
+
+    #ft{position:absolute; font-family: 'montserrat'; color:white; font-size: 135%; text-shadow: 2px 1.5px #000;}
 /*\-> Posiciones:                                                                                                                                                              */
-    .section-title{top: 10%; left: 60%}
+    .section-title{top: 10%; left: 59%} 
     .muzarella-nombre{top: 21.5%; left: 70.5%;}
     .verd-nombre{top: 39%; left: 70%;}
     .fgzt-nombre{top: 56%; left: 67.25%;}
@@ -182,155 +178,199 @@ footer > p{color: aliceblue; text-align: center;}
     .verd-ingredientes{top: 45.5%;}
     .fgzt-ingredientes{top: 62.5%;}
     .pys-ingredientes{top: 80%;}
+
+    .t1, .t2, .t3, .t4{top: 90%;}
+    .t1{left: 8%}
+    .t2{left: 33%}
+    .t3{left: 58%}
+    .t4{left: 83%}
+
+    #ft{top: 95%;left:40%;}
+
 /*[Nosotros]
 /*\-> Configuración:                                                                                                                                                           */
-    .section-title-pq, .section-title-fg, .section-title-te{color: #cda45e; font-size: 200%!important}
+    .section-title-pq, .section-title-fg, .section-title-te{color: #cda45e; font-size: 250%!important}
     .section-title-pq, .section-title-fg, .section-title-te, .texto1, .texto2, .texto3{text-shadow: 2px 2px #000!important;}
     .texto1, .texto2, .texto3{left: 3%; white-space: pre-line; font-size: 120%; padding-left: 5%;}
-    .texto1{padding-right: 40px;}
-    .texto2{padding-right: 750px;}
-    .texto3{padding-right: 80px;}
+    .texto1{padding-right: 90px;}
+    .texto2{padding-right: 1200px;}
+    .texto3{padding-right: 100px;}
 /*\-> Posiciones:                                                                                                                                                              */
-    .section-title-pq, .section-title-te{left: 58%;}
+    .section-title-pq, .section-title-te{left: 60%;}
     .section-title-pq{top: 28%;}
     .section-title-fg{left: 8%; top: 124%;}
     .section-title-te{top: 207%;}
-    .texto1, .texto3{left: 53%;}
-    .texto1{top: 38%;}
-    .texto2{top: 134%;}
-    .texto3{top: 217%;}
+    .texto1, .texto3{left: 55%;}
+    .texto1{top: 35%;}
+    .texto2{top: 131%;}
+    .texto3{top: 214%;}
+    @media(max-width: 1500px){
+        .titulo{left: 33%;}
+        .subtitulo{padding-right: 480px;left: 20%;}
+        @media(max-width: 1430px){
+            .subtitulo{left: 22.4%;}
+            
+            @media(max-width: 1420px){
+                .subtitulo{left: 22.7%;}
 
-    @media(max-width: 1430px){
-        .subtitulo{left: 22.4%;}
-        
-        @media(max-width: 1420px){
-            .subtitulo{left: 22.7%;}
+                .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 65px;}
 
-            @media(max-width: 1410px){
-                .subtitulo{left: 23%;}
+                @media(max-width: 1410px){
+                    .subtitulo{left: 23%;}
 
-                @media(max-width: 1400px){
-                    .subtitulo{left: 23.4%;}
+                    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 60px;}
+                    
 
-                    .texto2{padding-right: 740px;}
-                    @media(max-width: 1390px){
-                        .subtitulo{padding-right: 485px;}
-                        .subtitulo{left: 23.7%;}
+                    @media(max-width: 1400px){
+                        .subtitulo{left: 23.4%;}
 
-                        .texto2{padding-right: 730px;}
-                        @media(max-width: 1380px){
-                            .subtitulo{left: 24%;}
+                        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 55px;}
+                        .comprar{top: 92%;width:500px; height:45px}
 
-                            .texto2{padding-right: 720px;}
-                            @media(max-width: 1370px){
-                                .subtitulo{left: 24.2%;}
 
-                                .texto2{padding-right: 710px;}
-                                @media(max-width: 1360px){
-                                    .subtitulo{left: 24.1%;}
+                        .texto2{padding-right: 740px;}
+                        @media(max-width: 1390px){
+                            .subtitulo{padding-right: 485px;}
+                            .subtitulo{left: 23.7%;}
 
-                                    .texto2{padding-right: 700px;}
-                                    @media(max-width: 1350px){
-                                        .subtitulo{left: 24%;}
+                            .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 50px;}
 
-                                        .texto2{padding-right: 690px;}
-                                        @media(max-width: 1340px){
-                                            .subtitulo{left: 23.9%;}
 
-                                            .texto2{padding-right: 680px;}
-                                            @media(max-width: 1330px){
-                                                .subtitulo{padding-right: 475px;}
-                                                .subtitulo{left: 23.8%;}
+                            .texto2{padding-right: 730px;}
+                            @media(max-width: 1380px){
+                                .subtitulo{left: 24%;}
 
-                                                .texto2{padding-right: 670px;}
-                                                @media(max-width: 1320px){
-                                                    .subtitulo{left: 23.7%;}
+                                .texto2{padding-right: 720px;}
+                                @media(max-width: 1370px){
+                                    .subtitulo{left: 24.2%;}
 
-                                                    .texto2{padding-right: 660px;}
-                                                    @media(max-width: 1310px){
-                                                        .subtitulo{padding-right: 470px;}
-                                                        .subtitulo{left: 23.6%;}
+                                    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 45px;}
 
-                                                        .texto2{padding-right: 650px;}
-                                                        @media(max-width: 1300px){
-                                                            .subtitulo{left: 23.5%;}
 
-                                                            .muzarella-ingredientes, .pys-ingredientes, 
-                                                            .verd-ingredientes, .fgzt-ingredientes{padding-right: 65px;}
-                                                            @media(max-width: 1290px){
-                                                                .subtitulo{font-size: 149%; padding-right: 460px;}
-                                                                .subtitulo{left: 23%;}
+                                    .texto2{padding-right: 710px;}
+                                    @media(max-width: 1360px){
+                                        .subtitulo{left: 24.1%;}
+
+                                        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 40px;}
+
+
+                                        .texto2{padding-right: 700px;}
+                                        @media(max-width: 1350px){
+                                            .subtitulo{left: 24%;}
+
+                                            .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 35px;}
+
+
+                                            .texto2{padding-right: 690px;}
+                                            @media(max-width: 1340px){
+                                                .subtitulo{left: 23.9%;}
+
+                                                .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 30px;}
+
+                                                
+                                                .texto2{padding-right: 680px;}
+                                                @media(max-width: 1330px){
+                                                    .subtitulo{padding-right: 475px;}
+                                                    .subtitulo{left: 23.8%;}
+
+                                                    .texto2{padding-right: 670px;}
+                                                    @media(max-width: 1320px){
+                                                        .subtitulo{left: 23.7%;}
+
+                                                        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 25px;}
+
+
+                                                        .texto2{padding-right: 660px;}
+                                                        @media(max-width: 1310px){
+                                                            .subtitulo{padding-right: 470px;}
+                                                            .subtitulo{left: 23.6%;}
+
+                                                            .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 20px;}
+
+
+                                                            .texto2{padding-right: 650px;}
+                                                            @media(max-width: 1300px){
+                                                                .subtitulo{left: 23.5%;}
 
                                                                 .muzarella-ingredientes, .pys-ingredientes, 
-                                                                .verd-ingredientes, .fgzt-ingredientes{padding-right: 60px;}
-
-                                                                .texto2{padding-right: 640px;}
-                                                                @media(max-width: 1280px){
-                                                                                    
-                                                                    .subtitulo{font-size: 148%; padding-right: 450px;}
-                                                                    .subtitulo{left: 22.5%;}
+                                                                .verd-ingredientes, .fgzt-ingredientes{padding-right: 15px;}
+                                                                .comprar{width:500px;}
+                                                                @media(max-width: 1290px){
+                                                                    .subtitulo{font-size: 149%; padding-right: 460px;}
+                                                                    .subtitulo{left: 23%;}
 
                                                                     .muzarella-ingredientes, .pys-ingredientes, 
-                                                                    .verd-ingredientes, .fgzt-ingredientes{padding-right: 55px;}
+                                                                    .verd-ingredientes, .fgzt-ingredientes{padding-right: 60px;}
 
-                                                                    .texto2{padding-right: 630px;}
-                                                                    @media(max-width: 1270px){
-                                                                        .subtitulo{font-size: 147%; padding-right: 440px;}
-                                                                        .subtitulo{left: 22%;}
+
+                                                                    .texto2{padding-right: 640px;}
+                                                                    @media(max-width: 1280px){
+                                                                                        
+                                                                        .subtitulo{font-size: 148%; padding-right: 450px;}
+                                                                        .subtitulo{left: 22.5%;}
 
                                                                         .muzarella-ingredientes, .pys-ingredientes, 
-                                                                        .verd-ingredientes, .fgzt-ingredientes{padding-right: 50px;}
+                                                                        .verd-ingredientes, .fgzt-ingredientes{padding-right: 55px;}
 
-                                                                        .texto2{padding-right: 620px;}
-                                                                        @media(max-width: 1260px){
+                                                                        .texto2{padding-right: 630px;}
+                                                                        @media(max-width: 1270px){
+                                                                            .subtitulo{font-size: 147%; padding-right: 440px;}
+                                                                            .subtitulo{left: 22%;}
+
                                                                             .muzarella-ingredientes, .pys-ingredientes, 
-                                                                            .verd-ingredientes, .fgzt-ingredientes{padding-right: 45px;}
-                                                                            
-                                                                            .subtitulo{font-size: 146%; padding-right: 430px;}
-                                                                            .subtitulo{left: 21.5%;}
-                                                                            @media(max-width: 1250px){
-                                                                                .subtitulo{font-size: 145%; padding-right: 420px;}
-                                                                                .subtitulo{left: 21%;}
+                                                                            .verd-ingredientes, .fgzt-ingredientes{padding-right: 50px;}
 
+                                                                            .texto2{padding-right: 620px;}
+                                                                            @media(max-width: 1260px){
                                                                                 .muzarella-ingredientes, .pys-ingredientes, 
-                                                                                .verd-ingredientes, .fgzt-ingredientes{padding-right: 40px;}
+                                                                                .verd-ingredientes, .fgzt-ingredientes{padding-right: 45px;}
+                                                                                
+                                                                                .subtitulo{font-size: 146%; padding-right: 430px;}
+                                                                                .subtitulo{left: 21.5%;}
 
-                                                                                .texto2{padding-right: 610px;}
-                                                                                @media(max-width: 1240px){
-                                                                                    .subtitulo{font-size: 144%; padding-right: 410px;}
-                                                                                    .subtitulo{left: 20.5%;}
+                                                                                
+                                                                                .comprar{width:450px;}
+                                                                                @media(max-width: 1250px){
+                                                                                    .subtitulo{font-size: 145%; padding-right: 420px;}
+                                                                                    .subtitulo{left: 21%;}
 
                                                                                     .muzarella-ingredientes, .pys-ingredientes, 
-                                                                                    .verd-ingredientes, .fgzt-ingredientes{padding-right: 400px;}
+                                                                                    .verd-ingredientes, .fgzt-ingredientes{padding-right: 40px;}
 
-                                                                                    .texto2{padding-right: 600px;}
-                                                                                    @media(max-width: 1230px){
-                                                                                        .subtitulo{font-size: 143%; padding-right: 400px;}
-                                                                                        .subtitulo{left: 20%;}
 
-                                                                                        .muzarella-ingredientes, .pys-ingredientes, 
-                                                                                        .verd-ingredientes, .fgzt-ingredientes{padding-right: 30px;}
-
-                                                                                        .texto2{padding-right: 590px;}
-                                                                                        @media(max-width: 1220px){
-                                                                                            .subtitulo{font-size: 142%; padding-right: 390px;}
-                                                                                            .subtitulo{left: 19.5%;}
+                                                                                    .texto2{padding-right: 610px;}
+                                                                                    @media(max-width: 1240px){
+                                                                                        .subtitulo{font-size: 144%; padding-right: 410px;}
+                                                                                        .subtitulo{left: 20.5%;}
+                                                                                        
+                                                                                        .texto2{padding-right: 600px;}
+                                                                                        @media(max-width: 1230px){
+                                                                                            .subtitulo{font-size: 143%; padding-right: 400px;}
+                                                                                            .subtitulo{left: 20%;}
 
                                                                                             .muzarella-ingredientes, .pys-ingredientes, 
-                                                                                            .verd-ingredientes, .fgzt-ingredientes{padding-right: 25px;}
+                                                                                            .verd-ingredientes, .fgzt-ingredientes{padding-right: 30px;}
 
-                                                                                            .texto2{padding-right: 580px;}
-                                                                                            @media(max-width: 1210px){
-                                                                                                .subtitulo{font-size: 141%;}
-                                                                                                .subtitulo{left: 20%;}
-                                                                                                
+                                                                                            .texto2{padding-right: 590px;}
+                                                                                            @media(max-width: 1220px){
+                                                                                                .subtitulo{font-size: 142%; padding-right: 390px;}
+                                                                                                .subtitulo{left: 19.5%;}
+
                                                                                                 .muzarella-ingredientes, .pys-ingredientes, 
-                                                                                                .verd-ingredientes, .fgzt-ingredientes{padding-right: 20px;}
-                                                                                                .section-title{font-size:240%;}
+                                                                                                .verd-ingredientes, .fgzt-ingredientes{padding-right: 25px;}
 
-                                                                                                .texto2{padding-right: 570px;}
-                                                                                                @media(max-width: 1200px){ 
-}   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }
+                                                                                                .texto2{padding-right: 580px;}
+                                                                                                @media(max-width: 1210px){
+                                                                                                    .subtitulo{font-size: 141%;}
+                                                                                                    .subtitulo{left: 20%;}
+                                                                                                    
+                                                                                                    .muzarella-ingredientes, .pys-ingredientes, 
+                                                                                                    .verd-ingredientes, .fgzt-ingredientes{padding-right: 20px;}
+                                                                                                    .section-title{font-size:240%;}
+
+                                                                                                    .texto2{padding-right: 570px;}
+                                                                                                    @media(max-width: 1200px){ 
+}    }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }   }
 
 @media(max-width: 1199px){
     .fondo-1200, .img-carousel{display: block; width: 100%; height: 100vh;}
@@ -342,16 +382,18 @@ footer > p{color: aliceblue; text-align: center;}
     .subtitulo{font-size: 140%; padding-right: 390px;}
     .nav-link{margin-top: 9px}
 /*\-> Posiciones:                                                                                                                                                              */
-    .titulo{top: 42.5%; left: 34%;}
-    .subtitulo{top: 52.5%; left: 20%;}
+    .titulo{top: 47%; left: 34%;}
+    .subtitulo{top: 56.5%; left: 20%;}
 /*[Menu]
 /*\-> Configuración:                                                                                                                                                           */
     .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre, 
     .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{white-space: pre-line; text-shadow: 2px 2px #000!important; padding-right: 1px;}
     .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{font-size: 120%; color: #cda45e;}
-    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 108%; color:white; left: 58%; margin-left: 1px; padding-right: 38px;}
+    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 108%; color:white; left: 58%; margin-left: 1px; padding-right: 30px;}
     .precio{display: none;}
-    .section-title{white-space: nowrap; font-size: 230%;}
+    .section-title{white-space: nowrap; font-size: 230%;}    
+    .comprar{position:absolute!important;left: 58%; top: 90%; margin-left: 1px;width:470px;height:45px;background-color: #5b0082; border-color: #000}
+
 /*\-> Posiciones:                                                                                                                                                              */
     .section-title{top: 10%; left: 58%}
     .muzarella-nombre{top: 21.5%; left: 69.2%;}
@@ -389,7 +431,9 @@ footer > p{color: aliceblue; text-align: center;}
         .subtitulo{left: 20.3%}
 /*  [Menu]
     \-> Configuración:                                                                                                                                                         */
-        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 36px; left: 57.5%;}
+        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 33px; left: 57.5%;}
+        .comprar{left: 57.7%;}
+
 /*  \-> Posiciones:                                                                                                                                                            */
         .section-title{left: 57.5%}
         .muzarella-nombre{left: 68.7%;}
@@ -410,6 +454,9 @@ footer > p{color: aliceblue; text-align: center;}
 /*      [Menu]
         \-> Configuración:                                                                                                                                                         */
             .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 34px; left: 57%;}
+            .comprar{left: 57%;}
+            
+
 /*      \-> Posiciones:                                                                                                                                                             */
             .section-title{left: 57%}
             .muzarella-nombre{left: 68.4%;}
@@ -429,7 +476,9 @@ footer > p{color: aliceblue; text-align: center;}
                 .subtitulo{left: 21.1%}
 /*          [Menu]
             \-> Configuración:                                                                                                                                                         */
-                .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 32px; left: 56.5%;}
+                .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 35px; left: 56.5%;}
+                .comprar{left: 56.3%;}
+
 /*             \-> Posiciones:                                                                                                                                                             */
                 .section-title{left: 56.7%}
                 .muzarella-nombre{left: 68.1%;}
@@ -450,7 +499,9 @@ footer > p{color: aliceblue; text-align: center;}
                     .subtitulo{left: 21.5%}
 /*              [Menu]
                 \-> Configuración:                                                                                                                                                         */
-                    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 30px; left: 56%;}
+                    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 36px; left: 56%;}
+                    .comprar{left: 55.6%;}
+
 /*              \-> Posiciones:                                                                                                                                                             */
                     .section-title{left: 56%}
                     .muzarella-nombre{left: 67.8%;}
@@ -471,7 +522,9 @@ footer > p{color: aliceblue; text-align: center;}
                         .subtitulo{left: 21.9%}
 /*                  [Menu]
                     \-> Configuración:                                                                                                                                                         */
-                        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 28px; left: 55.5%;}
+                        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 37px; left: 55.5%;}
+                        .comprar{left: 55.3%;}
+
 /*                  \-> Posiciones:                                                                                                                                                           */
                         .section-title{left: 55.5%}
                         .muzarella-nombre{left: 67.5%;}
@@ -491,7 +544,9 @@ footer > p{color: aliceblue; text-align: center;}
                             .subtitulo{left: 22.3%}
 /*                      [Menu]
                         \-> Configuración:                                                                                                                                                         */
-                            .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 26px; left: 55%;}
+                            .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 38px; left: 55%;}
+                            .comprar{left: 55%;}
+
 /*                      \-> Posiciones:                                                                                                                                        */
                             .section-title{left: 55%}
                             .muzarella-nombre{left: 67.8%;}
@@ -512,7 +567,8 @@ footer > p{color: aliceblue; text-align: center;}
                                 .subtitulo{left: 22.7%}
 /*                          [Menu]
                             \-> Configuración:                                                                                                                                                         */
-                                .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 24px;}
+                                .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 35px;}
+
 /*                          \-> Posiciones:                                                                                                                                                           */
                                 .muzarella-nombre{left: 68.1%;}
                                 .verd-nombre{left: 67.6%;}
@@ -532,7 +588,8 @@ footer > p{color: aliceblue; text-align: center;}
                                     .subtitulo{left: 23.1%}
 /*                              [Menu]
                                 \-> Configuración:                                                                                                                                                         */
-                                    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 22px;}
+                                    .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 32px;}
+
 /*                              \-> Posiciones:                                                                                                                                                            */  
                                     .muzarella-nombre{left: 68.4%;}
                                     .verd-nombre{left: 67.9%;}
@@ -551,7 +608,7 @@ footer > p{color: aliceblue; text-align: center;}
                                         .titulo{left: 32.65%;}
 /*                                  [Menu]
                                     \-> Configuración:                                                                                                                                                         */
-                                        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 20px;}
+                                        .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 24px;}
 /*                                  \-> Posiciones:                                                                                                                                                            */
 /*                                  [Nosotros]
                                     \-> Configuración:                                                                                                                         */
@@ -567,7 +624,7 @@ footer > p{color: aliceblue; text-align: center;}
                                             .subtitulo{left: 23.9%}
 /*                                      [Menu]
                                         \-> Configuración:                                                                                                                                                         */
-                                            .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 16px;}
+                                            .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 20px;}
 /*                                      \-> Posiciones:                                                                                                                                                            */
 /*                                      [Nosotros]
                                         \-> Configuración:                                                                                                                     */
@@ -583,7 +640,7 @@ footer > p{color: aliceblue; text-align: center;}
                                                 .subtitulo{left: 24.3%}
 /*                                          [Menu]
                                             \-> Configuración:                                                                                                                                                         */
-                                                .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 12px;}
+                                                .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{padding-right: 18px;}
 /*                                          \-> Posiciones:                                                                                                                                                            */
 /*                                          [Nosotros]
                                             \-> Configuración:                                                                                                                 */
@@ -632,7 +689,8 @@ footer > p{color: aliceblue; text-align: center;}
                                                             .subtitulo{left: 25.5%}
 /*                                                      [Menu]
                                                         \-> Configuración:                                                                                                         */
-/*                                                      \-> Posiciones:                                                                                                                                                             */
+                                                        .comprar{top: 92%;width:435px; height:45px}
+/*                                                       \-> Posiciones:                                                                                                                                                             */
                                                             .muzarella-nombre{left: 69.2%;}
                                                             .verd-nombre{left: 68.5%;}
                                                             .fgzt-nombre{left: 65.5%;}
@@ -758,8 +816,8 @@ footer > p{color: aliceblue; text-align: center;}
     .subtitulo{font-size: 100%; padding-right: 372px;}
     .nav-link{margin-top: 9px!important;}
 /*\-> Posiciones:                                                                                                                                                              */
-    .titulo{top: 43%; left: 30.75%;}
-    .subtitulo{top: 53%; left: 26%;}
+    .titulo{top: 48%; left: 30.75%;}
+    .subtitulo{top: 58%; left: 26%;}
 /*[Menu]
 /*\-> Configuración:                                                                                                                                                           */
     .section-title{white-space: nowrap; font-size: 200%;}
@@ -768,7 +826,10 @@ footer > p{color: aliceblue; text-align: center;}
     .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{font-size: 120%; color: #cda45e;}
     .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 108%; color:white; left: 53.5%; margin-left: 1px; padding-right: 20px;}
     .precio{display: none;}
-/*\-> Posiciones:                                                                                                                                                              */
+    .comprar{position:absolute!important;left: 53.4%; top: 92%; margin-left: 1px;width:430px;height:45px;background-color: #5b0082; border-color: #000}
+    
+
+/*\-> Posiciones:                                                                                                                                        */
     .section-title{top: 10.5%; left: 55.5%}
     .muzarella-nombre{top: 20%; left: 66.7%;}
     .verd-nombre{top: 37.5%; left: 65.7%;}
@@ -894,6 +955,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                  [Menu]
                     \-> Configuración:                                                                                                                                         */
                         .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 52.5%; padding-right: 15px;}
+                        .comprar{left:52.5%} 
 /*                  \-> Posiciones:                                                                                                                                            */
                         .section-title{top: 6%;}
                         .muzarella-nombre{top: 18.5%; left: 65.7%;}
@@ -921,6 +983,8 @@ footer > p{color: aliceblue; text-align: center;}
 /*                      [Menu]
                         \-> Configuración:                                                                                                                                     */
                             .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 51.5%; padding-right: 20px;}
+                            .comprar{left:51.5%} 
+
 /*                      \-> Posiciones:                                                                                                                                        */
                             .section-title{top: 5%;}
                             .muzarella-nombre{left: 65.2%;}
@@ -948,6 +1012,8 @@ footer > p{color: aliceblue; text-align: center;}
 /*                          [Menu]
                             \-> Configuración:                                                                                                                                 */
                                 .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 50.5%; padding-right: 25px;}
+                                .comprar{left:50.3%} 
+
 /*                          \-> Posiciones:                                                                                                                                    */
                                 .section-title{top: 4%;}
                                 .muzarella-nombre{left: 64.7%;}
@@ -975,6 +1041,8 @@ footer > p{color: aliceblue; text-align: center;}
 /*                              [Menu]
                                 \-> Configuración:                                                                                                                             */
                                     .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 49.5%; padding-right: 30px;}
+                                    .comprar{top: 90.5%; left:49%} 
+
 /*                              \-> Posiciones:                                                                                                                                */
                                     .section-title{top: 3%;}
                                     .muzarella-nombre{top: 18.5%; left: 64.2%;}
@@ -1006,6 +1074,8 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                  [Menu]
                                     \-> Configuración:                                                                                                                         */
                                         .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 48.5%; padding-right: 35px;}
+                                        .comprar{top: 90%; left:48.3%} 
+
 /*                                  \-> Posiciones:                                                                                                                            */
                                         .section-title{top: 2%;}
 /*                                  [Nosotros]
@@ -1029,6 +1099,8 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                      [Menu]
                                         \-> Configuración:                                                                                                                     */
                                             .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 46.5%; padding-right: 40px;}
+                                            .comprar{top: 90%; left:46.3%} 
+
 /*                                      \-> Posiciones:                                                                                                                        */
                                             .section-title{top: 1%;}
 /*                                      [Nosotros]
@@ -1049,6 +1121,8 @@ footer > p{color: aliceblue; text-align: center;}
                                             \-> Configuración:                                                                                                                 */
                                                 .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 44.5%; padding-right: 25px;}
                                                 .section-title{display: none;}
+                                                .comprar{top: 90%; left:44.3%} 
+
 /*                                          [Nosotros]
                                             \-> Configuración:                                                                                                                 */
                                                 .texto1, .texto3{padding-right: 165px;}
@@ -1065,7 +1139,9 @@ footer > p{color: aliceblue; text-align: center;}
                                                     .subtitulo{left: 21%;}
 /*                                              [Menu]
                                                 \-> Configuración:                                                                                                             */
-                                                    .muzarella-ingredientes, .verd-ingredientes,.fgzt-ingredientes, .pys-ingredientes{left: 42.5%; padding-right: 30px;}
+                                                    .muzarella-ingredientes, .verd-ingredientes,.fgzt-ingredientes, .pys-ingredientes{left: 42.5%; padding-right: 26px;}
+                                                    .comprar{top: 80%; width: 470px; left:42.3%} 
+
 /*                                              \-> Posiciones:                                                                                                                */
                                                     .muzarella-nombre{top: 18.5%;}
                                                     .verd-nombre{top: 33.5%;}
@@ -1091,7 +1167,9 @@ footer > p{color: aliceblue; text-align: center;}
                                                         .subtitulo{left: 20%;}
 /*                                                  [Menu]
                                                     \-> Configuración:                                                                                                         */
-                                                        .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 40.5%; padding-right: 25px;}
+                                                        .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 40.5%; padding-right: 39px;}
+                                                        .comprar{top: 79.5%; left:40.3%} 
+
 /*                                                  \-> Posiciones:                                                                                                            */
                                                         .muzarella-nombre{top: 18%; left: 62.2%;}
                                                         .verd-nombre{top: 33%; left: 61.4%;}
@@ -1118,7 +1196,9 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                      [Menu]
                                                         \-> Configuración:                                                                                                     */
                                                             .muzarella-ingredientes, .verd-ingredientes, 
-                                                            .fgzt-ingredientes, .pys-ingredientes{left: 38.5%;}
+                                                            .fgzt-ingredientes, .pys-ingredientes{left: 38.5%; padding-right: 49px;}
+                                                            .comprar{top: 79%; left:38.3%} 
+
 /*                                                      \-> Posiciones:                                                                                                        */
                                                             .muzarella-nombre{top: 17.5%; left: 60.2%;}
                                                             .verd-nombre{top: 32.5%; left: 59.4%;}
@@ -1145,7 +1225,9 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                          [Menu]
                                                             \-> Configuración:                                                                                                 */
                                                                 .muzarella-ingredientes, .verd-ingredientes, 
-                                                                .fgzt-ingredientes, .pys-ingredientes{left: 36.5%;}
+                                                                .fgzt-ingredientes, .pys-ingredientes{left: 36.5%; padding-right: 59px;}
+                                                                .comprar{top: 78.5%; left:36.3%} 
+
 /*                                                          \-> Posiciones:                                                                                                    */
                                                                 .muzarella-nombre{top: 17%; left: 58.2%;}
                                                                 .verd-nombre{top: 32%; left: 57.4%;}
@@ -1172,7 +1254,9 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                              [Menu]
                                                                 \-> Configuración:                                                                                             */
                                                                     .muzarella-ingredientes, .verd-ingredientes, 
-                                                                    .fgzt-ingredientes, .pys-ingredientes{left: 34.5%; padding-right: 50px;}
+                                                                    .fgzt-ingredientes, .pys-ingredientes{left: 34.5%; padding-right: 69px;}
+                                                                    .comprar{top: 78%; left:34.3%} 
+
 /*                                                              \-> Posiciones:                                                                                                */
                                                                     .muzarella-nombre{top: 16.5%; left: 56.2%;}
                                                                     .verd-nombre{top: 31.5%; left: 55.4%;}
@@ -1198,7 +1282,9 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                                  [Menu]
                                                                     \-> Configuración:                                                                                         */
                                                                         .muzarella-ingredientes, .verd-ingredientes, 
-                                                                        .fgzt-ingredientes, .pys-ingredientes{left: 32.5%; padding-right: 75px;}
+                                                                        .fgzt-ingredientes, .pys-ingredientes{left: 32.5%; padding-right: 79px;}
+                                                                        .comprar{top: 77.5%; left:32.3%} 
+
 /*                                                                  \-> Posiciones:                                                                                            */
                                                                         .muzarella-nombre{top: 16%; left: 54.2%;}
                                                                         .verd-nombre{top: 31%; left: 53.4%;}
@@ -1222,7 +1308,9 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                                      [Menu]
                                                                         \-> Configuración:                                                                                     */
                                                                             .muzarella-ingredientes, .verd-ingredientes, 
-                                                                            .fgzt-ingredientes, .pys-ingredientes{left: 30.5%; padding-right: 75px;}
+                                                                            .fgzt-ingredientes, .pys-ingredientes{left: 30.5%; padding-right: 89px;}
+                                                                            .comprar{top: 77%; left:30.3%} 
+
 /*                                                                      \-> Posiciones:                                                                                        */
                                                                             .muzarella-nombre{top: 15.5%; left: 52.2%;}
                                                                             .verd-nombre{top: 30.5%; left: 51.4%;}
@@ -1247,7 +1335,9 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                                          [Menu]
                                                                             \-> Configuración:                                                                                 */
                                                                                 .muzarella-ingredientes, .verd-ingredientes, 
-                                                                                .fgzt-ingredientes, .pys-ingredientes{left: 26.5%; padding-right: 100px;}
+                                                                                .fgzt-ingredientes, .pys-ingredientes{left: 26.5%; padding-right: 112px;}
+                                                                                .comprar{top: 76.5%; left:26.3%} 
+
 /*                                                                          \-> Posiciones:                                                                                    */
                                                                                 .muzarella-nombre{top: 15%; left: 50.2%;}
                                                                                 .verd-nombre{top: 30%; left: 49.4%;}
@@ -1274,7 +1364,9 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                                              [Menu]
                                                                                 \-> Configuración:                                                                             */
                                                                                     .muzarella-ingredientes, .verd-ingredientes, 
-                                                                                    .fgzt-ingredientes, .pys-ingredientes{left: 22.5%; padding-right: 125px;}
+                                                                                    .fgzt-ingredientes, .pys-ingredientes{left: 22.5%; padding-right: 136px;}
+                                                                                    .comprar{top: 76.5%; left:22.3%} 
+
 /*                                                                              \-> Posiciones:                                                                                */
                                                                                     .muzarella-nombre{top: 14.5%; left: 48.2%;}
                                                                                     .verd-nombre{top: 29.5%; left: 47.4%;}
@@ -1299,7 +1391,9 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                                                  [Menu]
                                                                                     \-> Configuración:                                                                         */
                                                                                         .muzarella-ingredientes, .verd-ingredientes, 
-                                                                                        .fgzt-ingredientes, .pys-ingredientes{left: 18.5%; padding-right: 150px;}
+                                                                                        .fgzt-ingredientes, .pys-ingredientes{left: 18.5%; padding-right: 160px;}
+                                                                                        .comprar{top: 76.5%; left:18.3%} 
+
 /*                                                                                  \-> Posiciones:                                                                            */
                                                                                         .muzarella-nombre{top: 14%; left: 46.2%;}
                                                                                         .verd-nombre{top: 29%; left: 45.4%;}
@@ -1325,6 +1419,8 @@ footer > p{color: aliceblue; text-align: center;}
                                                                                         \-> Configuración:                                                                     */
                                                                                             .muzarella-ingredientes, .verd-ingredientes, 
                                                                                             .fgzt-ingredientes, .pys-ingredientes{left: 14.5%; padding-right: 125px;}
+                                                                                            .comprar{top: 76.5%; left:14.3%; width: 530px;} 
+
 /*                                                                                      \-> Posiciones:                                                                        */
                                                                                             .muzarella-nombre{top: 13.5%; left: 44.2%;}
                                                                                             .verd-nombre{top: 28.5%; left: 43.4%;}
@@ -1360,6 +1456,7 @@ footer > p{color: aliceblue; text-align: center;}
     .muzarella-nombre, .pys-nombre, .verd-nombre, .fgzt-nombre{font-size: 120%; color: #cda45e;}
     .muzarella-ingredientes, .pys-ingredientes, .verd-ingredientes, .fgzt-ingredientes{font-size: 100%; color:white; left: 8.5%; margin-left: 1px;}
     .precio, .section-title{display: none;}
+    .comprar{top: 76.5%; left: 8.3%; width: 670px;} 
 /*\-> Posiciones:                                                                                                                                                              */
     .muzarella-nombre{top: 13%; left: 42.2%;}
     .verd-nombre{top: 28%; left: 41.4%;}
@@ -1392,6 +1489,8 @@ footer > p{color: aliceblue; text-align: center;}
 /*  [Menu]
     \-> Configuración:                                                                                                                                                         */
         .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{padding-right: 30px; left: 9%;}
+        .comprar{width: 635px;} 
+
 /*  \-> Posiciones:                                                                                                                                                            */
         .muzarella-nombre{left: 42%;}
         .verd-nombre{left: 41.2%;}
@@ -1407,6 +1506,8 @@ footer > p{color: aliceblue; text-align: center;}
 /*      [Menu]
         \-> Configuración:                                                                                                                                                     */
             .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{padding-right: 30px; left: 9.5%;}
+            .comprar{left: 9%; width: 635px;} 
+
 /*      \-> Posiciones:                                                                                                                                                        */
             .muzarella-nombre{left: 41.8%;}
             .verd-nombre{left: 41%;}
@@ -1422,6 +1523,8 @@ footer > p{color: aliceblue; text-align: center;}
 /*          [Menu]
             \-> Configuración:                                                                                                                                                 */
                 .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{padding-right: 40px; left: 10%;}
+                .comprar{left: 9.7%; width: 623px;} 
+
 /*          \-> Posiciones:                                                                                                                                                    */
                 .muzarella-nombre{left: 42.3%;}
                 .verd-nombre{left: 41.5%;}
@@ -1478,6 +1581,8 @@ footer > p{color: aliceblue; text-align: center;}
 /*                          [Menu]
                             \-> Configuración:                                                                                                                                 */
                                 .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 8.5%;}
+                                .comprar{left: 8.3%; width: 610px;} 
+
 /*                          \-> Posiciones:                                                                                                                                    */
                                 .muzarella-nombre{left: 42.5%;}
                                 .verd-nombre{left: 41.5%;}
@@ -1493,6 +1598,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                              [Menu]
                                 \-> Configuración:                                                                                                                             */
                                     .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 7.5%;}
+                                    .comprar{left: 7.3%; width: 610px;} 
 /*                              \-> Posiciones:                                                                                                                                */
                                     .muzarella-nombre{left: 42%;}
                                     .verd-nombre{left: 41%;}
@@ -1508,6 +1614,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                  [Menu]
                                     \-> Configuración:                                                                                                                         */
                                         .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{padding-right: 30px;}
+                                        .comprar{width: 580px;} 
 /*                                  \-> Posiciones:                                                                                                                            */
                                         .muzarella-nombre{left: 41.5%;}
                                         .verd-nombre{left: 40.5%;}
@@ -1521,6 +1628,8 @@ footer > p{color: aliceblue; text-align: center;}
                                             .subtitulo{left: 7.6%;}
 /*                                      [Menu]
                                         \-> Posiciones:                                                                                                                        */
+                            
+                                            .comprar{top: 77.3%;} 
                                             .muzarella-nombre{left: 41%;}
                                             .verd-nombre{left: 40%;}
                                             .fgzt-nombre{top: 43%; left: 34.5%;}
@@ -1536,6 +1645,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                          [Menu]
                                             \-> Configuración:                                                                                                                 */
                                                 .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{padding-right: 50px;}
+                                                .comprar{top: 77.6%; width: 560px;} 
 /*                                          \-> Posiciones:                                                                                                                    */
                                                 .muzarella-nombre{left: 40.5%;}
                                                 .verd-nombre{left: 39.5%;}
@@ -1551,6 +1661,7 @@ footer > p{color: aliceblue; text-align: center;}
                                                     .subtitulo{left: 6.8%;}
 /*                                              [Menu]
                                                 \-> Posiciones:                                                                                                                */
+                                                    .comprar{top: 77.9%;} 
                                                     .muzarella-nombre{left: 40%;}
                                                     .verd-nombre{left: 39%;}
                                                     .fgzt-nombre{top: 44%; left: 33%;}
@@ -1565,6 +1676,8 @@ footer > p{color: aliceblue; text-align: center;}
                                                         .subtitulo{left: 6.4%;}
 /*                                                  [Menu]
                                                     \-> Posiciones:                                                                                                            */
+                                                        
+                                                        .comprar{top: 78.2%; width: 510px;} 
                                                         .muzarella-nombre{left: 39.5%;}
                                                         .verd-nombre{top: 28.5%; left: 38.5%;}
                                                         .fgzt-nombre{top: 44.5%; left: 32.5%;}
@@ -1581,6 +1694,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                      [Menu]
                                                         \-> Configuración:                                                                                                     */
                                                             .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{padding-right: 60px;}
+                                                            .comprar{top: 78.5%;} 
 /*                                                      \-> Posiciones:                                                                                                        */
                                                             .muzarella-nombre{left: 39%;}
                                                             .verd-nombre{top: 29%; left: 38%;}
@@ -1597,6 +1711,8 @@ footer > p{color: aliceblue; text-align: center;}
                                                                 .subtitulo{left: 4.99%;}
 /*                                                          [Menu]
                                                             \-> Posiciones:                                                                                                    */
+                                                                
+                                                                .comprar{top: 78.8%;} 
                                                                 .muzarella-nombre{left: 38.5%;}
                                                                 .verd-nombre{top: 29.5%; left: 37.5%;}
                                                                 .fgzt-nombre{top: 45.5%; left: 31.5%;}
@@ -1612,6 +1728,8 @@ footer > p{color: aliceblue; text-align: center;}
                                                                     .subtitulo{left: 5.04%;}
 /*                                                              [Menu]
                                                                 \-> Posiciones:                                                                                                */
+                                                                    
+                                                                    .comprar{top: 79.1%;} 
                                                                     .muzarella-nombre{left: 38%;}
                                                                     .verd-nombre{top: 30%; left: 37%;}
                                                                     .fgzt-nombre{top: 46%; left: 31%;}
@@ -1629,6 +1747,7 @@ footer > p{color: aliceblue; text-align: center;}
                                                                     \-> Configuración:                                                                                         */
                                                                         .muzarella-ingredientes, .verd-ingredientes,
                                                                         .fgzt-ingredientes, .pys-ingredientes{left: 7.4%;}
+                                                                        .comprar{top: 79.4%;} 
 /*                                                                  \-> Posiciones:                                                                                            */
                                                                         .muzarella-nombre{left: 37.5%;}
                                                                         .verd-nombre{top: 30.1%; left: 36.5%;}
@@ -1647,6 +1766,7 @@ footer > p{color: aliceblue; text-align: center;}
                                                                         \-> Configuración:                                                                                     */
                                                                             .muzarella-ingredientes, .verd-ingredientes,
                                                                             .fgzt-ingredientes, .pys-ingredientes{padding-right: 50px; left: 8.4%;}
+                                                                            .comprar{left: 8%; top: 79.7%; width: 480px;} 
 /*                                                                      \-> Posiciones:                                                                                        */
                                                                             .muzarella-nombre{left: 37%;}
                                                                             .verd-nombre{left: 36%;}
@@ -1741,6 +1861,7 @@ footer > p{color: aliceblue; text-align: center;}
                                                                                                 \-> Configuración:                                                             */
                                                                                                     .muzarella-ingredientes, .verd-ingredientes,
                                                                                                     .fgzt-ingredientes, .pys-ingredientes{left: 9.7%;}
+                                                                                                    .comprar{width: 450px;} 
 /*                                                                                              \-> Posiciones:                                                                */
                                                                                                     .muzarella-nombre{left: 35%;}
                                                                                                     .verd-nombre{left: 34%;}
@@ -1786,6 +1907,7 @@ footer > p{color: aliceblue; text-align: center;}
                                                                                                                 .muzarella-ingredientes, .verd-ingredientes,
                                                                                                                 .fgzt-ingredientes, 
                                                                                                                 .pys-ingredientes{padding-right: 6px; left: 8%;}
+                                                                                                                .comprar{width: 420px;} 
 /*                                                                                                          \-> Posiciones:                                                    */
                                                                                                                 .muzarella-nombre{left: 33.5%;}
                                                                                                                 .verd-nombre{left: 32.5%;}
@@ -1853,6 +1975,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*  [Menu]
 /*  \-> Configuración:                                                                                                                                                         */
         .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 6%; margin-left: 1px; font-size: 100%;}
+        .comprar{top: 83%; left: 6%; width: 390px;} 
 /*  \-> Posiciones:                                                                                                                                                            */
         .muzarella-nombre{left: 32.5%;}
         .verd-nombre{left: 31%;}
@@ -1899,6 +2022,8 @@ footer > p{color: aliceblue; text-align: center;}
                     @media(max-width: 430px){
 /*                  [Menu]
                     \-> Posiciones:                                                                                                                                            */
+                        
+                        .comprar{left: 4%; width: 390px;} 
                         .muzarella-nombre{left: 30.5%;}
                         .verd-nombre{left: 29%;}
                         .fgzt-nombre{top: 48.6%; left: 21%;}
@@ -1920,6 +2045,8 @@ footer > p{color: aliceblue; text-align: center;}
                             @media(max-width: 410px){
 /*                          [Menu]
                             \-> Posiciones:                                                                                                                                    */
+                                
+                                .comprar{width: 370px;} 
                                 .muzarella-nombre{left: 29.5%;}
                                 .verd-nombre{left: 28%;}
                                 .fgzt-nombre{top: 49.2%; left: 20%;}
@@ -1940,6 +2067,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                  [Menu]
                                     \-> Configuración:                                                                                                                         */
                                         .verd-ingredientes, .pys-ingredientes{margin-right: 0px;}
+                                        .comprar{top: 87%; width: 350px;} 
 /*                                  \-> Posiciones:                                                                                                                            */
                                         .muzarella-nombre{left: 28.5%;}
                                         .verd-nombre{top: 30.8%; left: 27%;}
@@ -1968,6 +2096,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                          [Menu]
                                             \-> Configuración:                                                                                                                 */
                                                 .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 2.5%;}
+                                                .comprar{left: 3%; width: 330px;} 
 /*                                          \-> Posiciones:                                                                                                                    */
                                                 .muzarella-nombre{left: 27.5%;}
                                                 .verd-nombre{top: 31.4%; left: 26%;}
@@ -1996,6 +2125,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                  [Menu]
                                                     \-> Configuración:                                                                                                         */
                                                         .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 2%; padding-right: 3px;}
+                                                        .comprar{left: 2%; width: 320px;} 
 /*                                                  \-> Posiciones:                                                                                                            */
                                                         .muzarella-nombre{left: 26.5%;}
                                                         .verd-nombre{top: 32%; left: 25%;}
@@ -2029,6 +2159,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                          [Menu]
                                                             \-> Configuración:                                                                                                 */
                                                                 .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 1%; padding-right: 0px;}
+                                                                .comprar{left: 1%; width: 315px;} 
 /*                                                          \-> Posiciones:                                                                                                    */
                                                                 .muzarella-nombre{left: 25.2%;}
                                                                 .verd-nombre{left: 24.2%;}
@@ -2044,6 +2175,7 @@ footer > p{color: aliceblue; text-align: center;}
 /*                                                              [Menu]
                                                                 \-> Configuración:                                                                                             */
                                                                     .muzarella-ingredientes, .verd-ingredientes, .fgzt-ingredientes, .pys-ingredientes{left: 0.5%;}
+                                                                    .comprar{left: 0%; width: 310px;} 
 /*                                                              \-> Posiciones:                                                                                                */
                                                                     .muzarella-nombre{left: 25.1%;}
                                                                     .verd-nombre{left: 24.1%;}
