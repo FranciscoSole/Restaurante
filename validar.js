@@ -6,6 +6,9 @@ function main(){
     let fgz = document.getElementById("cant3");
     let vdr = document.getElementById("cant4");
     let pizza = document.getElementById("pizza");
+    let login = document.getElementById("ingresar");
+    
+    login.onclick = function(){alert("En proceso");}
 
     muz.selectedIndex = 0;
     pys.selectedIndex = 0;
@@ -14,6 +17,7 @@ function main(){
 
     pizza.innerText="No se seleccionó ninguna pizza";
     pizza.onclick = function(){alert("No se seleccionó ninguna pizza");}
+    
 
     muz.onchange = precio;
     pys.onchange = precio;
