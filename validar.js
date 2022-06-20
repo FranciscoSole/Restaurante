@@ -1,20 +1,23 @@
 window.onload = main; 
 
 function main(){
+    let l = document.getElementById("ingresar");
+    l.onclick = function(){alert("En proceso");}
+
+    let pizza = document.getElementById("pizza");
+    pizza.innerText="No se seleccionó ninguna pizza";
+    pizza.onclick = function(){alert("No se seleccionó ninguna pizza");}
+
     let muz = document.getElementById("cant1");
     let pys = document.getElementById("cant2");
     let fgz = document.getElementById("cant3");
     let vdr = document.getElementById("cant4");
-    let pizza = document.getElementById("pizza");
     
     muz.selectedIndex = 0;
     pys.selectedIndex = 0;
     fgz.selectedIndex = 0;
     vdr.selectedIndex = 0;
 
-    pizza.innerText="No se seleccionó ninguna pizza";
-    pizza.onclick = function(){alert("No se seleccionó ninguna pizza");}
-    
     muz.onchange = precio;
     pys.onchange = precio;
     fgz.onchange = precio;
