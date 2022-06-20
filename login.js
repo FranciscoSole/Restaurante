@@ -1,6 +1,6 @@
-window.onload = main; 
+window.onload = login; 
 
-function main(){
-    let login = document.getElementById("ingresar");
-    login.onclick = function(){alert("En proceso");}
+function login(){
+    let l = document.getElementById("ingresar");
+    l.onclick = function(){alert("En proceso");}
 }
