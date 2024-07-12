@@ -4,7 +4,7 @@
 ### English
 - Show menu options
 - Simulate an order
-- It's responsive but not full responsive
+- It's responsive but not fully responsive
 
 ### Español
 - Mostrar el menu
